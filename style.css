@@ -144,10 +144,31 @@ html{
   text-transform: capitalize;
   padding: 10px 0;
 }
+
+
+/* about section styling */
 .about .paras{
   text-align: center;
   margin: 0 20%;
 }
+.hobbies{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.hobbies .box{
+  width: 200px;
+  background: rgba(0, 153, 219,0.5);
+  margin-right: 30px;
+  padding: 10px 15px;
+  border-radius: 0 300px 30px;
+}
+.box .h-title{
+  text-align: center;
+  font-weight: 600;
+}
+
 
 
 /* contact section styling */
@@ -205,4 +226,12 @@ html{
 }
 .social-media .gmail:hover{
   color: #d11702;
+}
+
+
+
+
+/* hr line styling */
+hr{
+  border: 1px solid #fff;
 }

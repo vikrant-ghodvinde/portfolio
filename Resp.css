@@ -37,9 +37,26 @@
   .section h1{
     font-size: 38px;
   }
+
+  /* about section */
   .about .section-text{
     font-size: 22px;
   }
+  .hobbies{
+    flex-direction: column;
+  }
+  .hobbies .box{
+    width: 100px;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .box .h-title{
+    font-size: 14px;
+  }
+  .box .h-content{
+    font-size: 14px;
+  }
+
 
   /* contact */
   .contact-info{
