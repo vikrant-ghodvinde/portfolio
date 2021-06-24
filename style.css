@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* navbar style */
+.navbar{
+  width: auto;
+  display: flex;
+  background: rgba(0,55,255,0.5);
+  align-items: center;
+  justify-content: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position: fixed;
+}
+.navbar .logo{
+  width: 40%;
+}
+.navbar .logo img{
+  width: 20%;
+}
+.navbar .manus ul{
+  display: flex;
+  list-style: none;
+}
+.navbar .manus ul li a{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 22px;
+  letter-spacing: 3px;
+  transition: 0.5s;
+}
+.navbar .manus ul li a:hover{
+  color: rgba(0, 153, 219,1);
+}
+
+
+.header{
+  display: flex;
+  background: rgba(0, 153, 219,1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 50px 50px;
+  height: 150vh;
+}
+.header .user-img{
+  width: 50%;
+}
+.header .user-img img{
+  width: 50%;
+  border-radius: 30px 0 30px 0;
+}
+.info-content{
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* text styling */
+.info-content .sm-text{
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.info-content .big-text{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+.info-content .md-text{
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* social media icons */
+.info-content .social-media{
+  margin: 50px 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.info-content .social-media i{
+  margin-right: 10px;
+  border: 2px solid rgba(0,255,255,0.5);
+  padding: 10px;
+  width: 30px;
+  border-radius: 10px 0 10px 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.social-media i:hover{
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.1);
+}
+.social-media .fb:hover{
+  color: #00f;
+}
+.social-media .insta:hover{
+  color: #ff035f;
+}
+.social-media .tweet:hover{
+  color: #05e8d1;
+}
+
+/* buttons styling */
+.btn{
+  padding: 8px 5px;
+  margin: 10px 5px;
+  background: none;
+  border: 1px solid rgba(0, 255, 255,0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #fff;
+}
+.btn:hover{
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.1);
+}
+
+
+/* section styling */
+.section{
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.section h1{
+  text-align: center;
+  font-size: 44px;
+  color: rgba(0, 153, 219,1);
+  text-transform: uppercase;
+}
+.section-text{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+.about .paras{
+  text-align: center;
+  margin: 0 20%;
+}
+
+
+/* contact section styling */
+.contact-info{
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 20%;
+}
+.contact-info li{
+  text-align: left;
+  font-size: 14px;
+  color: rgba(55,55,55,0.8);
+}
+.contact-info li a{
+  color: rgba(1, 255, 219,1);
+  text-decoration: none;
+}
+
+
+
+
+/* footer */
+.footer{
+  background: rgba(0, 153, 219,1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+}
+.footer .social-media i{
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 2px solid rgba(255,255,255,0.5);
+  padding: 10px;
+  width: 15px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.social-media i:hover{
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.1);
+}
+.social-media .fb:hover{
+  color: #00f;
+}
+.social-media .insta:hover{
+  color: #ff035f;
+}
+.social-media .tweet:hover{
+  color: #05e8d1;
+}
+.social-media .gmail:hover{
+  color: #d11702;
+}
