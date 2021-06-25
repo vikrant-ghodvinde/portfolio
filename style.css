@@ -89,6 +89,10 @@ html{
   align-items: center;
   display: flex;
 }
+.info-content .social-media a{
+  text-decoration: none;
+  color: #fff;
+}
 .info-content .social-media i{
   margin-right: 10px;
   border: 2px solid rgba(0,255,255,0.5);
@@ -508,6 +512,10 @@ html{
   border-radius: 50%;
   transition: 0.5s;
   cursor: pointer;
+}
+.footer .social-media a{
+  text-decoration: none;
+  color: #000;
 }
 .social-media i:hover{
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.1);
