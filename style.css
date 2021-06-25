@@ -249,43 +249,43 @@ html{
 
 .javascript{
   width: 50%;
-  background: rgba(240, 46, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: javascript 2s ease-out;
 }
 
 .css{
   width: 60%;
-  background: rgba(96, 240, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: css 2s ease-out;
 }
 
 .python{
   width: 45%;
-  background: rgba(255, 0, 0, 1);
+  background: rgba(240, 189, 7, 1);
   animation: python 2s ease-out;
 }
 
 .c-lang{
   width: 55%;
-  background: rgba(240, 46, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: c-lang 2s ease-out;
 }
 
 .cpp-lang{
   width: 50%;
-  background: rgba(240, 46, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: cpp-lang 2s ease-out;
 }
 
 .java{
   width: 40%;
-  background: rgba(255, 0, 0, 1);
+  background: rgba(240, 189, 7, 1);
   animation: java 2s ease-out;
 }
 
 .mysql{
   width: 60%;
-  background: rgba(96, 240, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: mysql 2s ease-out;
 }
 
@@ -304,13 +304,13 @@ html{
 
 .netbeans{
   width: 50%;
-  background: rgba(240, 46, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: netbeans 2s ease-out;
 }
 
 .office{
   width: 70%;
-  background: rgba(240, 189, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: office 2s ease-out;
 }
 
@@ -322,7 +322,7 @@ html{
 
 .photoshop{
   width: 65%;
-  background: rgba(96, 240, 7, 1);
+  background: rgba(0, 153, 219, 1);
   animation: photoshop 2s ease-out;
 }
 
