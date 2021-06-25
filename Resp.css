@@ -66,6 +66,13 @@
     width: auto;
   }
 
+  /* skills section */
+  .wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   /* contact */
   .contact-info{
@@ -136,6 +143,11 @@
   .edu-info{
     margin-left: 25px;
     width: auto;
+  }
+
+  /* skills section */
+  .wrapper{
+    flex-direction: column;
   }
 
 

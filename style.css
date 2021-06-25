@@ -202,9 +202,270 @@ html{
   margin: 10px 0;
 }
 
+/* skills section styling */
+.wrapper{
+  display: flex;
+}
+.technologies{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+.title-content{
+  display: flex;
+  justify-content: space-between;
+}
+.title-content h2{
+  font-size: 16px;
+  margin-top: 10px;
+}
 
 
+.softwares{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+}
+.bar{
+  height: 15px;
+  background: black;
+  list-style: none;
+  margin: 3px 0;
+  border-radius: 30px;
+}
 
+
+/* technologies bar styling */
+.html{
+  width: 80%;
+  background: rgba(0, 153, 219, 1);
+  animation: html 2s ease-out;
+}
+
+.javascript{
+  width: 50%;
+  background: rgba(240, 46, 7, 1);
+  animation: javascript 2s ease-out;
+}
+
+.css{
+  width: 60%;
+  background: rgba(96, 240, 7, 1);
+  animation: css 2s ease-out;
+}
+
+.python{
+  width: 45%;
+  background: rgba(255, 0, 0, 1);
+  animation: python 2s ease-out;
+}
+
+.c-lang{
+  width: 55%;
+  background: rgba(240, 46, 7, 1);
+  animation: c-lang 2s ease-out;
+}
+
+.cpp-lang{
+  width: 50%;
+  background: rgba(240, 46, 7, 1);
+  animation: cpp-lang 2s ease-out;
+}
+
+.java{
+  width: 40%;
+  background: rgba(255, 0, 0, 1);
+  animation: java 2s ease-out;
+}
+
+.mysql{
+  width: 60%;
+  background: rgba(96, 240, 7, 1);
+  animation: mysql 2s ease-out;
+}
+
+.asp-lang{
+  width: 80%;
+  background: rgba(0, 153, 219, 1);
+  animation: asp-lang 2s ease-out;
+}
+
+/* technologies bar styling */
+.visual-studio{
+  width: 80%;
+  background: rgba(0, 153, 219, 1);
+  animation: visual-studio 2s ease-out;
+}
+
+.netbeans{
+  width: 50%;
+  background: rgba(240, 46, 7, 1);
+  animation: netbeans 2s ease-out;
+}
+
+.office{
+  width: 70%;
+  background: rgba(240, 189, 7, 1);
+  animation: office 2s ease-out;
+}
+
+.atom{
+  width: 80%;
+  background: rgba(0, 153, 219, 1);
+  animation: atom 2s ease-out;
+}
+
+.photoshop{
+  width: 65%;
+  background: rgba(96, 240, 7, 1);
+  animation: photoshop 2s ease-out;
+}
+
+/* whole bar animation */
+/* html */
+@keyframes html {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+/* javascript */
+@keyframes javascript {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+/* css */
+@keyframes css {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+/* python */
+@keyframes python {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 45%;
+  }
+}
+
+/* c-lang */
+@keyframes c-lang {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 55%;
+  }
+}
+
+/* cpp-lang */
+@keyframes cpp-lang {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+/* java */
+@keyframes java {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 40%;
+  }
+}
+
+/* mysql */
+@keyframes mysql {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+/* asp-lang */
+@keyframes asp-lang {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+/* visual-studio */
+@keyframes visual-studio {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+/* netbeans */
+@keyframes netbeans {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+/* Office Suit */
+@keyframes office {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+/* Atom IDE */
+@keyframes atom {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+/* Adobe Photoshop */
+@keyframes photoshop {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 65%;
+  }
+}
 
 
 /* contact section styling */
