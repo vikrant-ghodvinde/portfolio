@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -168,6 +169,41 @@ html{
   text-align: center;
   font-weight: 600;
 }
+
+
+/* education section styling */
+.e-content{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.line{
+  content: '';
+  width: 1px;
+  height: auto;
+  background: #808080;
+}
+
+
+.edu-info{
+  margin-left: 25px;
+  width: 60%;
+}
+.edu-info-content{
+  margin: 20px 0;
+}
+.edu-title{
+  font-size: 22px;
+  font-weight: 600;
+}
+.edu-which{
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+
 
 
 
