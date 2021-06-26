@@ -324,6 +324,12 @@ html{
   animation: atom 2s ease-out;
 }
 
+.vscode{
+  width: 45%;
+  background: rgba(240, 189, 7, 1);
+  animation: vscode 2s ease-out;
+}
+
 .photoshop{
   width: 65%;
   background: rgba(0, 153, 219, 1);
@@ -458,6 +464,16 @@ html{
   }
   100%{
     width: 80%;
+  }
+}
+
+/* VS Code IDE */
+@keyframes vscode {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 45%;
   }
 }
 
