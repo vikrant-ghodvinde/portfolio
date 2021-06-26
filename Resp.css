@@ -72,6 +72,15 @@
     justify-content: center;
     align-items: center;
   }
+  .title-content h2{
+    font-size: 12px;
+  }
+  .head-title{
+    font-size: 18px;
+  }
+  .bar{
+    height: 8px;
+  }
 
 
   /* contact */
@@ -148,6 +157,15 @@
   /* skills section */
   .wrapper{
     flex-direction: column;
+  }
+  .title-content h2{
+    font-size: 12px;
+  }
+  .head-title{
+    font-size: 18px;
+  }
+  .bar{
+    height: 5px;
   }
 
 
