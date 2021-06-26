@@ -325,7 +325,7 @@ html{
 }
 
 .vscode{
-  width: 45%;
+  width: 40%;
   background: rgba(240, 189, 7, 1);
   animation: vscode 2s ease-out;
 }
@@ -473,7 +473,7 @@ html{
     width: 0;
   }
   100%{
-    width: 45%;
+    width: 40%;
   }
 }
 
