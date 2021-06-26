@@ -11,12 +11,14 @@ html{
 /* navbar style */
 .navbar{
   width: auto;
+  height: 120px;
   display: flex;
   background: rgba(0,55,255,0.5);
   align-items: center;
   justify-content: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   position: fixed;
+  transition: all 2s ease-out;
 }
 .navbar .logo{
   width: 40%;
@@ -40,6 +42,25 @@ html{
   color: rgba(0, 153, 219,1);
 }
 
+.manus{
+  display: flex;
+}
+
+/* burger */
+.burger{
+  width: 50px;
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 10px;
+}
+.burger .b-line{
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  margin-top: 2px;
+}
 
 .header{
   display: flex;
@@ -114,6 +135,9 @@ html{
 .social-media .tweet:hover{
   color: #05e8d1;
 }
+
+
+
 
 /* buttons styling */
 .btn{

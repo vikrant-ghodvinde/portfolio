@@ -1,11 +1,26 @@
 /* for width 900px */
 @media only screen and (max-width : 900px){
+  .navbar{
+    transition: all 0.3s ease-out;
+  }
   .navbar .manus ul{
     flex-direction: column;
   }
   .navbar .logo img{
     width: 50%;
   }
+
+/* burger */
+.burger{
+  display: block;
+}
+.nav-height{
+  height: 35px;
+}
+.nav-vis{
+  opacity: 0;
+}
+
   .header{
     flex-direction: column-reverse;
     height: 100vh;
@@ -97,13 +112,27 @@
 /* for width300px */
 @media only screen and (max-width : 300px){
   .navbar{
-    flex-direction: column;
+    
     text-align: center;
+    transition: all 0.3s ease-out;
+
   }
   .navbar .logo img{
     width: 50%;
     margin: auto;
   }
+
+  /* burger */
+  .burger{
+    display: block;
+  }
+  .nav-height{
+    height: 50px;
+  }
+  .nav-vis{
+    opacity: 0;
+  }
+
   .header{
     flex-direction: column-reverse;
     height: 100vh;
