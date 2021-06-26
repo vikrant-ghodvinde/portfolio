@@ -73,10 +73,10 @@
     align-items: center;
   }
   .title-content h2{
-    font-size: 12px;
+    font-size: 10px;
   }
   .head-title{
-    font-size: 18px;
+    font-size: 14px;
   }
   .bar{
     height: 5px;
@@ -159,10 +159,10 @@
     flex-direction: column;
   }
   .title-content h2{
-    font-size: 12px;
+    font-size: 10px;
   }
   .head-title{
-    font-size: 18px;
+    font-size: 14px;
   }
   .bar{
     height: 5px;
