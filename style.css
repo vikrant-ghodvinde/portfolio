@@ -53,13 +53,13 @@ html{
   position: absolute;
   cursor: pointer;
   right: 20px;
-  top: 10px;
+  top: 7px;
 }
 .burger .b-line{
   width: 20px;
   height: 2px;
   background: #fff;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .header{
