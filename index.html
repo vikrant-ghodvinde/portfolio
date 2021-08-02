@@ -2,329 +2,228 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Resp.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vikrant Ghodvinde</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <!-- navabar -->
-    <nav class="navbar nav-height">
-      <!-- logo -->
-      <div class="logo nav-vis">
-        <img src="img/My_Logo.png" alt="">
+    <nav>
+      <div class="logo">
+        <h1>Port<span>folio</span> </h1>
       </div>
+      <ul  class="toggle-List">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
 
-      <!-- manus -->
-        <div class="manus nav-vis">
-        <ul>
-            <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          </ul>
-
-      </div>
-      <!-- burger -->
-      <div class="burger">
-        <div class="b-line"></div>
-        <div class="b-line"></div>
-        <div class="b-line"></div>
+      <div class="toggle-menu" onclick="menuList()">
+        <i class="fas fa-bars"></i>
       </div>
     </nav>
 
-    <!-- header -->
-        <header class="header" id="Home">
+    <!-- banner -->
+    <header id="Home">
+      <img src="img/head.jpg" alt="">
 
-          <div class="info-content">
-            <p class="sm-text">Hello there</p>
-            <p class="big-text">i am vikrant ghodvinde</p>
-            <p class="md-text">web developer & designer</p>
+      <h3>Hello There</h3>
+      <h1>I'm Vikrant Ghodvinde</h1>
+      <p>Web Designer</p>
 
-              <a href="files/my-cv.pdf" download="Vikrant-Ghodvinde-CV"><button type="button" name="button" class="btn btn-sm">Download CV</button></a>
-              <a href="mailto:ghodvinde227@gmail.com"><button type="button" name="button" class="btn btn-md">Send Mail</button></a>
-
-            <!-- social media icons -->
-          <div class="social-media">
-            <a href="https://www.facebook.com/Vickys2707"><i class="fa fa-facebook fb"></i></a>
-              <a href="https://www.instagram.com/the_vicky_official_/"><i class="fa fa-instagram insta"></i></a>
-              <a href="https://twitter.com/GhodvindeVicky"><i class="fa fa-twitter tweet"></i></a>
-          </div>
-        </div>
-
-        <!-- user image -->
-        <div class="user-img">
-          <img src="img/1.jpg" alt="">
-        </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/Vickys2707/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/the_vicky_official_/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/GhodvindeVicky?s=08/"><i class="fab fa-twitter"></i></a>
+      </div>
     </header>
 
-
-    <!-- sections part -->
-
     <!-- about section -->
-    <section class="section about" id="About">
-      <h1>About</h1>
-      <p class="section-text">web developer & designer</p>
-      <p class="paras">I am an Graduate student of Information Technology branch in Wada, Maharashtra.
-         I am passionate about technologies involved in Web development, Web design.
-         I am a daily learner about Web designing and Styling.</p>
+    <section class="about" id="About">
+      <div class="title">
+        <h1>About <span>M</span>e</h1>
+      </div>
 
-      <div class="hobbies">
-        <div class="box">
-          <p class="h-title">Interests</p>
-          <hr>
-          <p class="h-content">
-            <li>Listening Music</li>
-            <li>Event Managing</li>
-            <li>Dancing</li>
-          </p>
+      <div class="content">
+        <div class="textBx">
+          <h3>I'm Web Developer</h3>
+          <p>Hello! I am Vikrant Ghodvinde. I am an Graduate student of Information Technology branch in Wada, Maharashtra.
+            I am passionate about technologies involved in Web development, Web design.
+            I am a daily learner about Web designing and Styling. I like to learn things,
+            I am also capable to learn thing quickly.</p>
+
+            <a href="cv/vikrant-ghodvinde-cv.pdf" download="vikrant-ghodvinde-cv" class="btn">Download My CV</a>
         </div>
 
-        <div class="box">
-          <p class="h-title">Additional Activities</p>
-          <hr>
-          <p class="h-content">
-            <li>Photography</li>
-            <li>Acting</li>
-            <li>Web Surfing</li>
-            <li>Finding What's New</li>
-          </p>
+        <div class="imgBx">
+          <img src="img/about.jpg" alt="">
         </div>
-
-        <div class="box">
-          <p class="h-title">Languages Known</p>
-          <hr>
-          <p class="h-content">
-            <li>English</li>
-            <li>Marathi</li>
-            <li>Hindi</li>
-          </p>
-        </div>
-
       </div>
     </section>
-
 
     <!-- education section -->
-    <section class="section education" id="Education">
-      <h1>Education</h1>
-      <p class="section-text">My Education</p>
+    <section class="education" id="Education">
+      <div class="title">
+        <h1>My <span>E</span>ducation</h1>
+      </div>
 
-      <div class="e-content">
-
-        <!-- line -->
+      <h2>This is my education</h2>
+      <div class="content">
         <div class="line"></div>
 
-        <!-- information -->
-        <div class="edu-info">
-          <div class="edu-info-content">
-            <p class="edu-title">Bachelor in Infromation Technology</p>
-            <p class="edu-which"><b>Mumbai University</b> | 2018 - 2021</p>
-            <p class="edu-paras">While pursuing this degree I get to know many updated concepts from IT field.
-            I'm also learned about some other programming languages like Java, Python, R.</p>
+        <div class="edu-content">
+          <div class="textBx">
+            <h3>Bachelor of Information Technology</h3>
+            <p><b>Mumbai University</b> | 2018 - 2021</p>
+            <p class="sm-para">While pursuing this degree I get to know many updated
+              concepts from IT field. I'm also learned about some other programming languages like Java, Python, R.</p>
           </div>
-
-          <div class="edu-info-content">
-            <p class="edu-title">Higher Secondary School Certificate</p>
-            <p class="edu-which"><b>Mumbai University</b> | 2016 - 2018</p>
-            <p class="edu-paras">While pursuing HSC, I participated in many several activities like dancing,
-              one act play, street play</p>
+          <div class="textBx">
+            <h3>Higher Secondary School Certificate</h3>
+            <p><b>Mumbai University</b> | 2016 - 2018</p>
+            <p class="sm-para">While pursuing this degree I get to know many updated
+              concepts from IT field. I'm also learned about some other programming languages like Java, Python, R.</p>
           </div>
-
-          <div class="edu-info-content">
-            <p class="edu-title">Secondary School Certificate</p>
-            <p class="edu-which"><b>Mumbai University</b> | 2015 - 2016</p>
-            <p class="edu-paras">The childhood education was loud and clear to develop hygine,
-              healthy habits, learn about ethics to show respect and also curriculum activities to excel.</p>
+          <div class="textBx">
+            <h3>Secondary School Certificate</h3>
+            <p><b>Mumbai University</b> | 2015 - 2016</p>
+            <p class="sm-para">While pursuing this degree I get to know many updated
+              concepts from IT field. I'm also learned about some other programming languages like Java, Python, R.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Skills section -->
-    <section class="section education" id="Skills">
-      <h1>My Skills</h1>
+    <!-- projects section -->
+    <section class="projects" id="Projects">
+      <div class="title">
+        <h1><span>M</span>y Projects</h1>
+        <p>There are some of my projects i built in my free time and for as my final year projects.
+          Some of it built in Asp.Net with C# and some of it built in HTML, CSS, JavaScript.
+          Following are some of my projects.</p>
+      </div>
 
-      <div class="wrapper">
-
-        <!-- Technologies skill bar -->
-        <div class="technologies">
-          <h2 class="head-title">Technologies</h2>
-
-          <!-- HTML -->
-          <div class="title-content">
-            <h2>HTML</h2>
-            <h2>80%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar html"></li>
-          </div>
-
-          <!-- JavaScript -->
-          <div class="title-content">
-            <h2>JavaScript</h2>
-            <h2>50%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar javascript"></li>
-          </div>
-
-          <!-- CSS -->
-          <div class="title-content">
-            <h2>CSS</h2>
-            <h2>60%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar css"></li>
-          </div>
-
-          <!-- Python -->
-          <div class="title-content">
-            <h2>Python</h2>
-            <h2>45%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar python"></li>
-          </div>
-
-          <!-- C -->
-          <div class="title-content">
-            <h2>C</h2>
-            <h2>55%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar c-lang"></li>
-          </div>
-
-          <!-- C++ -->
-          <div class="title-content">
-            <h2>C++</h2>
-            <h2>50%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar cpp-lang"></li>
-          </div>
-
-          <!-- Java -->
-          <div class="title-content">
-            <h2>Java</h2>
-            <h2>40%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar java"></li>
-          </div>
-
-          <!-- MySQL -->
-          <div class="title-content">
-            <h2>MySQL</h2>
-            <h2>60%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar mysql"></li>
-          </div>
-
-          <!-- Asp.Net with C# -->
-          <div class="title-content">
-            <h2>Asp.Net with C#</h2>
-            <h2>80%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar asp-lang"></li>
-          </div>
-
+      <div class="content">
+        <div class="projectBx">
+          <img src="img/microsoft.png" alt="">
+          <h3>Windows Clone</h3>
+          <p>The windows close has been built in HTML, CSS, JavaScript.
+            It takes 3 days to built and give it beautiful look, but i built it and make it happened.</p>
         </div>
 
-        <!-- Softwares and IDEs skill bar -->
-        <div class="softwares">
-          <h2 class="head-title">Softwares and IDEs</h2>
+        <div class="projectBx">
+          <img src="img/visual.png" alt="">
+          <h3>College Website</h3>
+          <p>The College Management System Website has been Built in Asp.Net with C#.
+            I used PayTM payment getway to make payments and pay fees.</p>
+        </div>
 
-          <!-- Visual Studio 2010 -->
-          <div class="title-content">
-            <h2>Visual Studio</h2>
+        <div class="projectBx">
+          <img src="img/html.png" alt="">
+          <h3>Chinese Food</h3>
+          <p>The Chinese Food website built in HTML, CSS, JavaScript. It is one page
+            website with different sections with beautiful Design and Completely Responsive.</p>
+        </div>
+
+        <div class="projectBx">
+          <img src="img/visual.png" alt="">
+          <h3>Sia's Beauty Parlour</h3>
+          <p>Sia's Beauty Parlour is beauty parlour website that helps beauty parlours
+            to manage their data and users to book their appointments.</p>
+        </div>
+
+        <div class="projectBx">
+          <img src="img/html.png" alt="">
+          <h3>Fashion</h3>
+          <p>The 'Fashion' is a clothing and style website built is HTML, CSS, JavaScript.
+            It is Completely Responsive website with an beautiful design.</p>
+        </div>
+
+        <div class="projectBx">
+          <img src="img/html.png" alt="">
+          <h3>Restorent</h3>
+          <p>The 'Restorent' is a Hotel website built is HTML, CSS, JavaScript.
+            It is Completely Responsive website with an beautiful and userfriendly design.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills" id="Skills">
+      <div class="title">
+        <h1>My <span>S</span>kills</h1>
+        <p>Hello! here's my some of my Skills in which I will say I am best in it. I have good
+          Knoeledge in photography also, I would like to say that I'm a good photographer.
+          If you like to see my photos you can visit my instagram page : <a href="https://www.instagram.com/unknownclickss/">unknown_clicks</a></p>
+      </div>
+
+      <div class="content">
+        <div class="skillBx">
+          <div class="name">
+            <h2><i class="fab fa-html5"></i>HTML</h2>
             <h2>80%</h2>
           </div>
-          <div class="progress-bar">
-            <li class="bar visual-studio"></li>
-          </div>
+          <div class="skill-line html"></div>
+        </div>
 
-          <!-- NetBeans -->
-          <div class="title-content">
-            <h2>NetBeans</h2>
-            <h2>50%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar netbeans"></li>
-          </div>
-
-          <!-- Office Suit -->
-          <div class="title-content">
-            <h2>Office Suit</h2>
+        <div class="skillBx">
+          <div class="name">
+            <h2><i class="fab fa-css3-alt"></i>CSS</h2>
             <h2>70%</h2>
           </div>
-          <div class="progress-bar">
-            <li class="bar office"></li>
-          </div>
-
-          <!-- Atom IDE -->
-          <div class="title-content">
-            <h2>Atom IDE</h2>
-            <h2>80%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar atom"></li>
-          </div>
-
-          <!-- VS Code -->
-          <div class="title-content">
-            <h2>VS Code</h2>
-            <h2>40%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar vscode"></li>
-          </div>
-
-          <!-- Adobe Photoshop -->
-          <div class="title-content">
-            <h2>Photoshop</h2>
-            <h2>65%</h2>
-          </div>
-          <div class="progress-bar">
-            <li class="bar photoshop"></li>
-          </div>
-
+          <div class="skill-line css"></div>
         </div>
 
+        <div class="skillBx">
+          <div class="name">
+            <h2><i class="fab fa-js-square"></i>JavaScript</h2>
+            <h2>60%</h2>
+          </div>
+          <div class="skill-line javascript"></div>
+        </div>
+
+        <div class="skillBx">
+          <div class="name">
+            <h2><i class="fas fa-paint-brush"></i>UI/UX</h2>
+            <h2>80%</h2>
+          </div>
+          <div class="skill-line ui-ux"></div>
+        </div>
+
+        <div class="skillBx">
+          <div class="name">
+            <h2><i class="fas fa-camera"></i>Photography</h2>
+            <h2>90%</h2>
+          </div>
+          <div class="skill-line photography"></div>
+        </div>
       </div>
-
-
     </section>
 
-    <!-- Contact section -->
-    <section class="section education" id="Contact">
-      <h1>Contact Me</h1>
-      <p class="section-text">You can contact me to :</p>
-      <div class="contact-info">
+    <!-- contact section -->
+    <section class="contact" id="Contact">
+      <div class="title">
+        <h1><span>C</span>ontact Me</h1>
+      </div>
+
+      <div class="content">
         <li>Email : <a href="#">ghodvinde227@gmail.com</a></li>
-        <li>Phone : +91 7038486826</li>
-        <li>Address : At Post-Pik, Tal.-Wada, Dist.-Palghar, Maharashtra, 421303.</li>
+        <li>Phone : 91 7038486826</li>
+        <li>Address : 217, Pik, Tal. Wada, Dist. Palghar - 421303.</li>
       </div>
     </section>
-
-
 
     <!-- footer -->
-        <footer class="footer">
-
-          <!-- social media icons -->
-          <div class="social-media">
-            <a href="https://www.facebook.com/Vickys2707"><i class="fa fa-facebook fb"></i></a>
-            <a href="https://www.instagram.com/the_vicky_official_/"><i class="fa fa-instagram insta"></i></a>
-            <a href="https://twitter.com/GhodvindeVicky"><i class="fa fa-twitter tweet"></i></a>
-            <a href="mailto:ghodvinde227@gmail.com"><i class="fa fa-envelope gmail"></i></a>
-          </div>
-        </footer>
-
-  <script src="nav.js"></script>
+    <footer>
+      <p>COPYRIGHT &copy;2021 VIKRANT GHODVINDE</p>
+    </footer>
   </body>
+  <script src="js/script.js" charset="utf-8"></script>
 </html>

@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+:root{
+  --black: #222;
+  --black2: #555;
+  --black3: #333;
+  --white: #fff;
+  --white2: #999;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+/* navbar */
+nav{
+  display: flex;
+  width: 100%;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  position: fixed;
+  z-index: 1000;
+  transition: all 0.2s;
+}
+nav.active{
+  background: var(--black);
+  padding: 15px 100px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+nav .logo h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--white2);
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+nav .logo h1 span{
+  color: var(--white);
+}
+nav ul{
+  display: flex;
+}
+nav ul li a{
+  font-size: 18px;
+  color: var(--white2);
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.toggle-menu{
+  display: none;
+}
+
+/* banner */
+header{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+}
+header img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+header h3,h1{
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 500;
+}
+header h1{
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 5px rgba(0, 150, 255, 0.5);
+}
+header p{
+  color: var(--white);
+  font-weight: 300;
+  font-size: 16px;
+}
+header .social-media{
+  display: flex;
+  align-items: center;
+}
+header .social-media a{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background: var(--black3);
+  margin: 10px 8px;
+  color: var(--white);
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px rgba(0, 150, 255, 0.2);
+}
+header .social-media a i{
+  transition: all 0.3s;
+}
+
+/* section */
+section{
+  padding: 50px 100px;
+}
+section .title h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--black3);
+  text-align: center;
+  padding: 20px 0;
+  /* border-bottom: 1px solid rgba(51, 51, 51, 0.5); */
+}
+section .title h1 span{
+  color: #f00;
+  font-size: 40px;
+}
+section .title p{
+  text-align: center;
+  color: var(--black3);
+}
+
+/* about section */
+.about .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  color: var(--black3);
+}
+.about .content .textBx h3{
+  padding: 10px 0;
+}
+.about .content .textBx .btn{
+  position: absolute;
+  padding: 10px 20px;
+  background: var(--black3);
+  margin-top: 20px;
+  color: var(--white);
+}
+.about .content .imgBx{
+  width: 600px;
+  min-width: 600px;
+}
+.about .content .imgBx img{
+  width: 100%;
+}
+
+/* education section */
+.education{
+  background: #111;
+}
+.education .title h1{
+  color: var(--white2);
+}
+.education h2{
+  padding: 10px 100px;
+  font-size: 18px;
+  color: var(--white2);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.education .content{
+  display: flex;
+  padding: 0 100px;
+  color: var(--white2);
+}
+.education .content .line{
+  position: relative;
+  width: 2px;
+  height: auto;
+  background: #000;
+  margin-right: 20px;
+}
+.education .content .edu-content .textBx{
+  margin: 20px 0;
+  width: 700px;
+}
+.education .content .edu-content .textBx h3{
+  text-transform: uppercase;
+}
+
+/* projects section */
+.projects .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 100px;
+  color: var(--black3);
+}
+.projects .content .projectBx{
+  position: relative;
+  width: 300px;
+  min-width: 260px;
+  height: 330px;
+  min-height: 280px;
+  border: 1px solid rgba(51, 51, 51, 0.08);
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.projects .content .projectBx img{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.projects .content .projectBx h3{
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* skills section */
+.skills{
+  background: #111;
+}
+.skills .title h1{
+  color: var(--white2);
+}
+.skills .title p,a{
+  color: var(--white2);
+}
+.skills .content{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 150px;
+}
+.skills .content .skillBx{
+  position: relative;
+  width: 100%;
+  height: 35px;
+  /* background: var(--white); */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.skills .content .skillBx .name{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 15px;
+  color: var(--white2);
+}
+.skills .content .skillBx .name h2{
+  font-size: 17px;
+  font-weight: 300;
+}
+.skills .content .skillBx .name h2 i{
+  margin-right: 8px;
+}
+.skills .content .skillBx .skill-line{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: var(--white2);
+  border-radius: 0 2px 0;
+}
+.skills .content .skillBx .skill-line.html{
+  width: 80%;
+  animation: html 2s ease-in;
+}
+.skills .content .skillBx .skill-line.css{
+  width: 70%;
+  animation: css 2s ease-in;
+}
+.skills .content .skillBx .skill-line.javascript{
+  width: 60%;
+  animation: javascript 2s ease-in;
+}
+.skills .content .skillBx .skill-line.ui-ux{
+  width: 80%;
+  animation: ui-ux 2s ease-in;
+}
+.skills .content .skillBx .skill-line.photography{
+  width: 90%;
+  animation: photography 2s ease-in;
+}
+
+/* contact section */
+.contact .content{
+  padding: 30px 150px;
+}
+.contact .content li{
+  margin: 5px 0;
+  color: var(--black);
+}
+.contact .content li a{
+  color: var(--black);
+}
+
+footer{
+  width: 100%;
+  padding: 20px 100px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

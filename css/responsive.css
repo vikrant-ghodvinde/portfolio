@@ -1,0 +1,203 @@
+/* width 1106px; */
+@media only screen and (max-width: 1106px) {
+  nav{
+    flex-direction: column;
+    transition: 0.5s;
+    height: 70px;
+  }
+  nav.active2{
+    height: 100vh;
+    padding: 20px 100px;
+  }
+  .toggle-List{
+    flex-direction: column;
+    /* visibility: hidden; */
+    /* display: none; */
+    transition: 0.6s;
+    position: absolute;
+    top: -1000%;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    line-height: 50px;
+  }
+  .toggle-List.active{
+    /* display: block; */
+    /* visibility: visible; */
+    top: 30%;
+  }
+  .toggle-menu{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+  }
+  .toggle-menu i{
+    font-size: 30px;
+    color: var(--black2);
+  }
+  nav.active .toggle-menu i{
+    filter: invert();
+  }
+
+  section{
+    padding: 50px 50px;
+  }
+  /* about */
+  .about .content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .about .content .textBx h3{
+    text-align: center;
+  }
+  .about .content .textBx .btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .content .imgBx{
+    margin-top: 50px;
+    width: auto;
+    min-width: 200px;
+  }
+
+  /* education */
+  .education .content{
+    padding: 0;
+  }
+  .education h2{
+    padding: 0;
+  }
+  .education .content .edu-content .textBx{
+    width: auto;
+  }
+
+  /* projects */
+  .projects .content{
+    padding: 0;
+  }
+  .projects .content .projectBx{
+    width: auto;
+    height: auto;
+  }
+
+  /* skils */
+  .skills .content{
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  /* contact */
+  .contact .content{
+    padding: 30px 0;
+  }
+}
+
+
+/* width 600px; */
+@media only screen and (max-width: 600px){
+  nav{
+    padding: 20px 0;
+  }
+  nav.active{
+    padding: 20px 0;
+  }
+  nav.active2{
+    padding: 20px 20px;
+  }
+  nav .logo h1{
+    font-size: 24px;
+  }
+  .toggle-menu{
+    top: 25px;
+  }
+  .toggle-menu i{
+    font-size: 20px;
+  }
+  header img{
+    width: 250px;
+    height: 250px;
+  }
+  header h3,h1{
+    text-align: center;
+  }
+  header h3{
+    font-size: 16px;
+  }
+  header h1{
+    font-size: 26px;
+  }
+  section .title h1{
+    font-size: 22px;
+  }
+
+  /* about */
+  .about .content .textBx h3{
+    font-size: 16px;
+  }
+  .about .content .textBx p{
+    font-size: 14px;
+  }
+
+  /* education */
+  .education h2{
+    font-size: 16px;
+  }
+  .education .content .edu-content .textBx h3{
+    font-size: 16px;
+  }
+  .education .content .edu-content .textBx p{
+    font-size: 10px;
+  }
+  .education .content .edu-content .textBx .sm-para{
+    font-size: 12px;
+  }
+
+  /* projects */
+  .projects .title p{
+    font-size: 14px;
+  }
+  .projects .content .projectBx img{
+    width: 50px;
+    height: 50px;
+  }
+  .projects .content .projectBx h3{
+    font-size: 16px;
+  }
+  .projects .content .projectBx p{
+    font-size: 14px;
+  }
+
+  /* skills */
+  .skills .title p,a{
+    font-size: 14px;
+  }
+
+  /* contact */
+  .contact{
+    margin: auto -10px;
+  }
+  .contact .content li,a{
+    font-size: 12px;
+  }
+  .skills .content .skillBx .name{
+    padding: 10px 15px;
+  }
+  .skills .content .skillBx .name h2{
+    font-size: 12px;
+  }
+  .skills .content .skillBx .skill-line{
+    height: 3px;
+  }
+
+  /* footer */
+  footer{
+    padding: 20px 5px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+}
