@@ -116,6 +116,7 @@ header .social-media a i{
 /* section */
 section{
   padding: 50px 100px;
+  width : 100%;
 }
 section .title h1{
   font-size: 30px;
