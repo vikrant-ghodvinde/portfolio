@@ -1,229 +1,938 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikrant Ghodvinde</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/responsive.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Vikrant Ghodvinde</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <!-- Dependency Styles -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body onload="preload();">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <h1>Port<span>folio</span> </h1>
-      </div>
-      <ul  class="toggle-List">
-        <li><a href="#Home" onclick="menuList()">Home</a></li>
-        <li><a href="#About" onclick="menuList()">About</a></li>
-        <li><a href="#Education" onclick="menuList()">Education</a></li>
-        <li><a href="#Projects" onclick="menuList()">Projects</a></li>
-        <li><a href="#Skills" onclick="menuList()">Skills</a></li>
-        <li><a href="#Contact" onclick="menuList()">Contact</a></li>
-      </ul>
+  <!-- =============================== -->
+  <!-- screen support start -->
+  <!-- =============================== -->
+  <div class="screen-support">
+    <span>Sorry! Your device not supported. Some function may not work properly.</span>
+  </div>
+  <!-- =============================== -->
+  <!-- screen support end -->
+  <!-- =============================== -->
 
-      <div class="toggle-menu" onclick="menuList()">
-        <i class="fas fa-bars"></i>
-      </div>
-    </nav>
+  <!-- =============================== -->
+  <!-- Preloader start -->
+  <!-- =============================== -->
+  <div class="preloader align-items-center justify-content-center">
+    <h1 class="ml4">
+      <span class="letters letters-1">V</span>
+      <span class="letters letters-2">I</span>
+      <span class="letters letters-3">C</span>
+      <span class="letters letters-4">K</span>
+      <span class="letters letters-5">Y</span>
+    </h1>
+  </div>
+  <!-- =============================== -->
+  <!-- Preloader end -->
+  <!-- =============================== -->
 
-    <!-- banner -->
-    <header id="Home">
-      <img src="img/head.jpg" alt="">
-
-      <h3>Hello There</h3>
-      <h1>I'm Vikrant Ghodvinde</h1>
-      <p>Web Designer</p>
-
-      <div class="social-media">
-        <a href="https://www.facebook.com/Vickys2707/"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/vicky027_/"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/GhodvindeVicky?s=08/"><i class="fab fa-twitter"></i></a>
-      </div>
-    </header>
-
-    <!-- about section -->
-    <section class="about" id="About">
-      <div class="title">
-        <h1>About <span>M</span>e</h1>
-      </div>
-
-      <div class="content">
-        <div class="textBx">
-          <h3>I'm Web Developer</h3>
-          <p>Hello! I am Vikrant Ghodvinde. I am an Graduate student of Information Technology branch in Wada, Maharashtra.
-            I am passionate about technologies involved in Web development, Web design.
-            I am a daily learner about Web designing and Styling. I like to learn things,
-            I am also capable to learn thing quickly.</p>
-
-            <a href="cv/vikrant-ghodvinde-cv.pdf" download="vikrant-ghodvinde-cv" class="btn">Download My CV</a>
+  <!-- =============================== -->
+  <!-- Header start -->
+  <!-- =============================== -->
+  <header>
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="#">
+            <h3>Vicky</h3>
+          </a>
         </div>
-
-        <div class="imgBx">
-          <img src="img/about.jpg" alt="">
+        <ul class="menus d-flex">
+          <a href="#home-slink" class="s-link-bxb">
+            <li class="active">Home</li>
+          </a>
+          <a href="#about-slink" class="s-link-bxb">
+            <li class="">About us</li>
+          </a>
+          <a href="#services-slink" class="s-link-bxb">
+            <li class="">Services</li>
+          </a>
+          <a href="#portfolio-slink" class="s-link-bxb">
+            <li class="">Portfolio</li>
+          </a>
+          <a href="#blog-slink" class="s-link-bxb">
+            <li class="">Blog</li>
+          </a>
+          <a href="#contact-slink" class="s-link-bxb">
+            <li class="">Contact</li>
+          </a>
+          <a class="rsp-closer d-inline-block d-md-inline-block d-lg-none" onclick="rspToggler();">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+        </ul>
+        <div class="rsp-toggler d-inline-block d-md-inline-block d-lg-none" onclick="rspToggler();">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
+  <!-- =============================== -->
+  <!-- Header end -->
+  <!-- =============================== -->
 
-    <!-- education section -->
-    <section class="education" id="Education">
-      <div class="title">
-        <h1>My <span>E</span>ducation</h1>
+  <!-- =============================== -->
+  <!-- Home Section start -->
+  <!-- =============================== -->
+  <section class="home-banner d-flex align-items-center justify-content-center" id="home-slink">
+
+    <!-- h-objects start -->
+    <div class="shape-dark top-style">
+      <img src="images/h-object-1.svg" alt="" class="img-fluid">
+    </div>
+    <div class="shape-dark bottom-style">
+      <img src="images/h-object-2.svg" alt="" class="img-fluid">
+    </div>
+    <!-- h-objects end -->
+
+    <div class="container">
+      <div class="text-center text-white">
+        <div class="heading-font">
+          <p class="fs-sm">Hi There, I'm</p>
+          <h1 class="py-4 fs-lg fw-bold">Vikrant Ghodvinde</h1>
+        </div>
+        <div class="d-flex justify-content-center flex-wrap">
+          <span class="badge-prime m-2">Web Designer</span>
+          <span class="badge-prime m-2">Web Developer</span>
+          <span class="badge-prime m-2">UI/UX Designer</span>
+        </div>
       </div>
 
-      <h2>This is my education</h2>
-      <div class="content">
-        <div class="line"></div>
+      <div class="scroll-bottom-link d-none d-md-none d-lg-block">
+        <a href="#about-slink">Scroll</a>
+      </div>
 
-        <div class="edu-content">
-          <div class="textBx">
-            <h3>Bachelor of Information Technology</h3>
-            <p><b>Mumbai University</b> | 2018 - 2021</p>
-            <p class="sm-para">While pursuing this degree I get to know many updated
-              concepts from IT field. I'm also learned about some other programming languages like Java, Python, R.</p>
+      <div class="h-contact-icons d-flex">
+        <a href="#">
+          <div class="rouded-circle-icon d-flex align-items-center justify-content-center mx-1">
+            <i class="fa-brands fa-facebook-f"></i>
           </div>
-          <div class="textBx">
-            <h3>Higher Secondary School Certificate</h3>
-            <p><b>Mumbai University</b> | 2016 - 2018</p>
-            <p class="sm-para">While pursuing this degree I get to know many updated
-              concepts from IT field. I'm also learned about some other programming languages like Java, Python, R.</p>
+        </a>
+        <a href="https://twitter.com/ghodvindevicky">
+          <div class="rouded-circle-icon d-flex align-items-center justify-content-center mx-1">
+            <i class="fa-brands fa-twitter"></i>
           </div>
-          <div class="textBx">
-            <h3>Secondary School Certificate</h3>
-            <p><b>Mumbai University</b> | 2015 - 2016</p>
-            <p class="sm-para">While pursuing this degree I get to know many updated
-              concepts from IT field. I'm also learned about some other programming languages like Java, Python, R.</p>
+        </a>
+        <a href="https://www.instagram.com/vicky027_/">
+          <div class="rouded-circle-icon d-flex align-items-center justify-content-center mx-1">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </a>
+        <a href="#">
+          <div class="rouded-circle-icon d-flex align-items-center justify-content-center mx-1">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Home Section end -->
+  <!-- =============================== -->
+
+  <!-- =============================== -->
+  <!-- About Section start -->
+  <!-- =============================== -->
+  <section class="gradient-banner" id="about-slink">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 col-lg-6 py-3">
+          <div data-aos="fade-right" data-aos-duration="1200">
+            <div class="img-box-a img-box-a-dark">
+              <img src="images/1.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 py-3">
+          <div data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+            <div class="about-me">
+              <div class="text-white">
+                <h3 class="fw-bold heading-font fs-md lh-sm py-2">Vikrant Ghodvinde</h3>
+                <h5 class="fs-18 lh-sm py-2">Web Developer</h5>
+                <p class="lh-md py-2 text-grey">I design and develop services for customers of all sizes, specializing in creating
+                  stylish, modern websites, web services and online stores. My passion is to design digital
+                  user experiences through the bold interface and meaningful interactions. Check out my Portfolio</p>
+              </div>
+              <div class="text-white py-3">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Birthday</label>
+                      <p>27 july 2000</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>E-mail</label>
+                      <p>ghodvinde227@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Age</label>
+                      <p>22 Yr</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Phone</label>
+                      <p>992-341-9339</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Residence</label>
+                      <p>India</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Phone</label>
+                      <p>27 july 2000</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Address</label>
+                      <p>Virar, Maharashtra</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="media">
+                      <label>Freelance</label>
+                      <p>Available</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-3">
+                <a href="#" class="btn btn-prime">Download CV</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- About Section end -->
+  <!-- =============================== -->
 
-    <!-- projects section -->
-    <section class="projects" id="Projects">
-      <div class="title">
-        <h1><span>M</span>y Projects</h1>
-        <p>There are some of my projects i built in my free time and for as my final year projects.
-          Some of it built in Asp.Net with C# and some of it built in HTML, CSS, JavaScript.
-          Following are some of my projects.</p>
-      </div>
-
-      <div class="content">
-        <div class="projectBx">
-          <img src="img/microsoft.png" alt="">
-          <h3>Windows Clone</h3>
-          <p>The windows close has been built in HTML, CSS, JavaScript.
-            It takes 3 days to built and give it beautiful look, but i built it and make it happened.</p>
-        </div>
-
-        <div class="projectBx">
-          <img src="img/visual.png" alt="">
-          <h3>College Website</h3>
-          <p>The College Management System Website has been Built in Asp.Net with C#.
-            I used PayTM payment getway to make payments and pay fees.</p>
-        </div>
-
-        <div class="projectBx">
-          <img src="img/html.png" alt="">
-          <h3>Chinese Food</h3>
-          <p>The Chinese Food website built in HTML, CSS, JavaScript. It is one page
-            website with different sections with beautiful Design and Completely Responsive.</p>
-        </div>
-
-        <div class="projectBx">
-          <img src="img/visual.png" alt="">
-          <h3>Sia's Beauty Parlour</h3>
-          <p>Sia's Beauty Parlour is beauty parlour website that helps beauty parlours
-            to manage their data and users to book their appointments.</p>
-        </div>
-
-        <div class="projectBx">
-          <img src="img/html.png" alt="">
-          <h3>Fashion</h3>
-          <p>The 'Fashion' is a clothing and style website built is HTML, CSS, JavaScript.
-            It is Completely Responsive website with an beautiful design.</p>
-        </div>
-
-        <div class="projectBx">
-          <img src="img/html.png" alt="">
-          <h3>Restorent</h3>
-          <p>The 'Restorent' is a Hotel website built is HTML, CSS, JavaScript.
-            It is Completely Responsive website with an beautiful and userfriendly design.</p>
+  <!-- =============================== -->
+  <!-- Services Section start -->
+  <!-- =============================== -->
+  <section class="grey-banner" id="services-slink">
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="text-center text-white s-title-box">
+          <h1 class="heading-font s-heading fs-md-2 lh-sm fw-bold mb-4">Our Services</h1>
+          <p class="text-grey">I design and develop services for customers of all sizes, specializing in creating stylish,
+            modern websites, web services and online stores.</p>
         </div>
       </div>
-    </section>
 
-    <!-- skills section -->
-    <section class="skills" id="Skills">
-      <div class="title">
-        <h1>My <span>S</span>kills</h1>
-        <p>Hello! here's my some of my Skills in which I will say I am best in it. I have good
-          Knoeledge in photography also, I would like to say that I'm a good photographer.
-          If you like to see my photos you can visit my instagram page : <a href="https://www.instagram.com/unknownclickss/">unknown_clicks</a></p>
-      </div>
-
-      <div class="content">
-        <div class="skillBx">
-          <div class="name">
-            <h2><i class="fab fa-html5"></i>HTML</h2>
-            <h2>80%</h2>
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-4 my-3" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="services-box-001">
+            <div class="icon-md">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h5 class="fw-bold heading-font py-2">Development</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="skill-line html"></div>
         </div>
-
-        <div class="skillBx">
-          <div class="name">
-            <h2><i class="fab fa-css3-alt"></i>CSS</h2>
-            <h2>70%</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-3" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="services-box-001">
+            <div class="icon-md">
+              <i class="fa-solid fa-image"></i>
+            </div>
+            <h5 class="fw-bold heading-font py-2">Graphic</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="skill-line css"></div>
         </div>
-
-        <div class="skillBx">
-          <div class="name">
-            <h2><i class="fab fa-js-square"></i>JavaScript</h2>
-            <h2>60%</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-3" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="services-box-001">
+            <div class="icon-md">
+              <i class="fa-solid fa-table-columns"></i>
+            </div>
+            <h5 class="fw-bold heading-font py-2">Web Design</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="skill-line javascript"></div>
         </div>
-
-        <div class="skillBx">
-          <div class="name">
-            <h2><i class="fas fa-paint-brush"></i>UI/UX</h2>
-            <h2>80%</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-3" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="services-box-001">
+            <div class="icon-md">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <h5 class="fw-bold heading-font py-2">Web Design</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="skill-line ui-ux"></div>
         </div>
-
-        <div class="skillBx">
-          <div class="name">
-            <h2><i class="fas fa-camera"></i>Photography</h2>
-            <h2>90%</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-3" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="services-box-001">
+            <div class="icon-md">
+              <i class="fa-solid fa-camera"></i>
+            </div>
+            <h5 class="fw-bold heading-font py-2">Photography</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="skill-line photography"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-3" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="services-box-001">
+            <div class="icon-md">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h5 class="fw-bold heading-font py-2">Mobile apps</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Services Section end -->
+  <!-- =============================== -->
 
-    <!-- contact section -->
-    <section class="contact" id="Contact">
-      <div class="title">
-        <h1><span>C</span>ontact Me</h1>
+  <!-- =============================== -->
+  <!-- Skills Section start -->
+  <!-- =============================== -->
+  <section class="black-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4 my-4" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="">
+            <div class="text-white">
+              <span class="heading-font s-title fs-4 fw-bold">Education</span>
+            </div>
+
+            <div class="education-card-00xs1 theme-bg mt-5">
+              <div class="text-white">
+                <div class="mb-3">
+                  <span class="bg-dark rounded-pill fs-xxs px-3 pdy-1">2015 - 2016</span>
+                </div>
+                <h6 class="py-2 fw-bold fs-18">Secondary School Certificate</h6>
+                <p>S.V.V.M, Wada.</p>
+              </div>
+              <div class="text-white mt-5">
+                <div class="mb-3">
+                  <span class="bg-dark rounded-pill fs-xxs px-3 pdy-1">2016 - 2018</span>
+                </div>
+                <h6 class="py-2 fw-bold fs-18">Higher Secondary School Certificate</h6>
+                <p>S.V.V.M, Wada.</p>
+              </div>
+              <div class="text-white mt-5">
+                <div class="mb-3">
+                  <span class="bg-dark rounded-pill fs-xxs px-3 pdy-1">2018 - 2021</span>
+                </div>
+                <h6 class="py-2 fw-bold fs-18">Bachelor of Information Technology</h6>
+                <p>WCMC, Wada.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4 my-4" data-aos="fade-right" data-aos-duration="1500" data-aos-dealay="100">
+          <div class="">
+            <div class="text-white">
+              <span class="heading-font s-title fs-4 fw-bold">Experience</span>
+            </div>
+
+            <div class="education-card-00xs1 mt-5">
+              <div class="text-white">
+                <div class="mb-3">
+                  <span class="theme-bg rounded-pill fs-xxs px-3 pdy-1">2010-2012</span>
+                </div>
+                <h6 class="py-2 fw-bold fs-18">Software Engineer</h6>
+                <p>Furious Design Institute</p>
+              </div>
+              <div class="text-white mt-5">
+                <div class="mb-3">
+                  <span class="theme-bg rounded-pill fs-xxs px-3 pdy-1">2010-2012</span>
+                </div>
+                <h6 class="py-2 fw-bold fs-18">Android Developer</h6>
+                <p>Ketlimte Design Ltd.</p>
+              </div>
+              <div class="text-white mt-5">
+                <div class="mb-3">
+                  <span class="theme-bg rounded-pill fs-xxs px-3 pdy-1">2010-2012</span>
+                </div>
+                <h6 class="py-2 fw-bold fs-18">Rubby Developer</h6>
+                <p>Randara Institute Academy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4 my-4" data-aos="fade-right" data-aos-duration="2000" data-aos-dealay="100">
+          <div class="">
+            <div class="text-white">
+              <span class="heading-font s-title fs-4 fw-bold">My Skills</span>
+            </div>
+
+            <div class="education-card-00xs1 mt-5">
+              <div class="skill-wrap-xms011  mb-1">
+                <div class="text-white mb-2">
+                  <span class="fw-md">HTML</span>
+                </div>
+                <div class="skill-0xs1s">
+                  <div class="inskill-0scxs skl-1">
+                    <span>92%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-wrap-xms011 mt-5 mb-1">
+                <div class="text-white mb-2">
+                  <span class="fw-md">Css/JS/Bootstrap</span>
+                </div>
+                <div class="skill-0xs1s">
+                  <div class="inskill-0scxs skl-2">
+                    <span>80%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-wrap-xms011 mt-5 mb-1">
+                <div class="text-white mb-2">
+                  <span class="fw-md">Asp.NET C#</span>
+                </div>
+                <div class="skill-0xs1s">
+                  <div class="inskill-0scxs skl-3">
+                    <span>65%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-wrap-xms011 mt-5 mb-1">
+                <div class="text-white mb-2">
+                  <span class="fw-md">Python</span>
+                </div>
+                <div class="skill-0xs1s">
+                  <div class="inskill-0scxs skl-4">
+                    <span>50%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-wrap-xms011 mt-5 mb-1">
+                <div class="text-white mb-2">
+                  <span class="fw-md">React js</span>
+                </div>
+                <div class="skill-0xs1s">
+                  <div class="inskill-0scxs skl-5">
+                    <span>20%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Skills Section end -->
+  <!-- =============================== -->
+
+  <!-- =============================== -->
+  <!-- Portfolio Section start -->
+  <!-- =============================== -->
+  <section class="grey-banner" id="portfolio-slink">
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="text-center text-white s-title-box">
+          <h1 class="heading-font s-heading fs-md-2 lh-sm fw-bold mb-4">My Portfolio</h1>
+          <p class="text-grey">I design and develop services for customers of all sizes, specializing in creating stylish,
+            modern websites, web services and online stores.</p>
+        </div>
       </div>
 
-      <div class="content">
-        <li>Email : <a href="#">ghodvinde227@gmail.com</a></li>
-        <li>Phone : +91 7038486826</li>
-        <li>Address : 217, Pik, Tal. Wada, Dist. Palghar - 421303.</li>
+      <div class="mt-5">
+        <ul class="heading-font portfolio-cayrgory-xsdmx0 d-flex flex-wrap align-items-center justify-content-center text-white">
+          <li class="cat-xsgs012 active" data-filter="All">All</li>
+          <li class="cat-xsgs012" data-filter="Branding">Branding</li>
+          <li class="cat-xsgs012" data-filter="Photography">Photography</li>
+          <li class="cat-xsgs012" data-filter="Fashion">Fashion</li>
+          <li class="cat-xsgs012" data-filter="Product">Product</li>
+        </ul>
       </div>
-    </section>
 
-    <!-- footer -->
-    <footer>
-      <p>COPYRIGHT &copy;2021 VIKRANT GHODVINDE</p>
-    </footer>
-  </body>
-  <script src="js/script.js" charset="utf-8"></script>
+      <div class="row mt-5" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+        <div class="col-12 col-sm-6 col-lg-4 portfolio-items Branding my-3">
+          <div class="Portfolio-card-xc01ds">
+            <div class="card-head-mzsd0">
+              <a href="#" class="fs-5 fw-md">Motion Graphy</a>
+              <p class="text-grey">Android App</p>
+            </div>
+            <div class="portfolio-card-img-xcfs0">
+              <img src="images/55.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <div class="link-xsvs1 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 portfolio-items Product my-3">
+          <div class="Portfolio-card-xc01ds">
+            <div class="card-head-mzsd0">
+              <a href="#" class="fs-5 fw-md">E-Learning App</a>
+              <p class="text-grey">Nuna ios App</p>
+            </div>
+            <div class="portfolio-card-img-xcfs0">
+              <img src="images/56.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <div class="link-xsvs1 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 portfolio-items Branding my-3">
+          <div class="Portfolio-card-xc01ds">
+            <div class="card-head-mzsd0">
+              <a href="#" class="fs-5 fw-md">Visual Design</a>
+              <p class="text-grey">Themeforest Marke</p>
+            </div>
+            <div class="portfolio-card-img-xcfs0">
+              <img src="images/57.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <div class="link-xsvs1 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 portfolio-items Photography Fashion my-3">
+          <div class="Portfolio-card-xc01ds">
+            <div class="card-head-mzsd0">
+              <a href="#" class="fs-5 fw-md">Business Card</a>
+              <p class="text-grey">Graphicriver Market</p>
+            </div>
+            <div class="portfolio-card-img-xcfs0">
+              <img src="images/58.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <div class="link-xsvs1 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 portfolio-items Branding my-3">
+          <div class="Portfolio-card-xc01ds">
+            <div class="card-head-mzsd0">
+              <a href="#" class="fs-5 fw-md">Code Editing</a>
+              <p class="text-grey">Codecanyon Market</p>
+            </div>
+            <div class="portfolio-card-img-xcfs0">
+              <img src="images/59.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <div class="link-xsvs1 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 portfolio-items Photography Product my-3">
+          <div class="Portfolio-card-xc01ds">
+            <div class="card-head-mzsd0">
+              <a href="#" class="fs-5 fw-md">Web Application</a>
+              <p class="text-grey">Behance Shot</p>
+            </div>
+            <div class="portfolio-card-img-xcfs0">
+              <img src="images/60.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <div class="link-xsvs1 d-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Portfolio Section end -->
+  <!-- =============================== -->
+
+  <!-- =============================== -->
+  <!-- Projects Section start -->
+  <!-- =============================== -->
+  <section class="black-banner">
+    <div class="container" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+      <div class="owl-carousel">
+        <div class="carousel-card-xsds d-flex flex-column flex-sm-column flex-md-row">
+          <div class="carousel-img-xdsd">
+            <img src="images/team-2.jpg" alt="" class="img-fluid position-relative">
+          </div>
+          <div class="carousel-info-mxbs">
+            <p>I design and develop services for customers of all sizes,
+              specializing in creating stylish, modern websites, web services
+              and online stores.
+            </p>
+            <div class="carousel-title-cxs mt-4">
+              <h6 class="fw-bold text-white">1</h6>
+            </div>
+            <div class="carousel-badges-wrap-xcds">
+              <span class="carousel-badge-dxse">HTML</span>
+              <span class="carousel-badge-dxse">CSS</span>
+              <span class="carousel-badge-dxse">JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-card-xsds d-flex">
+          <div class="carousel-img-xdsd">
+            <img src="images/team-2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-info-mxbs">
+            <p>I design and develop services for customers of all sizes,
+              specializing in creating stylish, modern websites, web services
+              and online stores.
+            </p>
+            <div class="carousel-title-cxs mt-4">
+              <h6 class="fw-bold text-white">2</h6>
+            </div>
+            <div class="carousel-badges-wrap-xcds">
+              <span class="carousel-badge-dxse">HTML</span>
+              <span class="carousel-badge-dxse">CSS</span>
+              <span class="carousel-badge-dxse">JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-card-xsds d-flex">
+          <div class="carousel-img-xdsd">
+            <img src="images/team-2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-info-mxbs">
+            <p>I design and develop services for customers of all sizes,
+              specializing in creating stylish, modern websites, web services
+              and online stores.
+            </p>
+            <div class="carousel-title-cxs mt-4">
+              <h6 class="fw-bold text-white">3</h6>
+            </div>
+            <div class="carousel-badges-wrap-xcds">
+              <span class="carousel-badge-dxse">HTML</span>
+              <span class="carousel-badge-dxse">CSS</span>
+              <span class="carousel-badge-dxse">JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-card-xsds d-flex">
+          <div class="carousel-img-xdsd">
+            <img src="images/team-2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-info-mxbs">
+            <p>I design and develop services for customers of all sizes,
+              specializing in creating stylish, modern websites, web services
+              and online stores.
+            </p>
+            <div class="carousel-title-cxs mt-4">
+              <h6 class="fw-bold text-white">4</h6>
+            </div>
+            <div class="carousel-badges-wrap-xcds">
+              <span class="carousel-badge-dxse">HTML</span>
+              <span class="carousel-badge-dxse">CSS</span>
+              <span class="carousel-badge-dxse">JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-card-xsds d-flex">
+          <div class="carousel-img-xdsd">
+            <img src="images/team-2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-info-mxbs">
+            <p>I design and develop services for customers of all sizes,
+              specializing in creating stylish, modern websites, web services
+              and online stores.
+            </p>
+            <div class="carousel-title-cxs mt-4">
+              <h6 class="fw-bold text-white">5</h6>
+            </div>
+            <div class="carousel-badges-wrap-xcds">
+              <span class="carousel-badge-dxse">HTML</span>
+              <span class="carousel-badge-dxse">CSS</span>
+              <span class="carousel-badge-dxse">JS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Projects Section end -->
+  <!-- =============================== -->
+
+  <!-- =============================== -->
+  <!-- Blog Section start -->
+  <!-- =============================== -->
+  <section class="grey-banner" id="blog-slink">
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="text-center text-white s-title-box">
+          <h1 class="heading-font s-heading fs-md-2 lh-sm fw-bold mb-4">Recent articles</h1>
+          <p class="text-grey">I design and develop services for customers of all sizes, specializing in creating stylish,
+            modern websites, web services and online stores.</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-right" data-aos-duration="1200" data-aos-dealay="100">
+          <div class="article-card-xcss">
+            <div class="blog-img-xds">
+              <div class="blog-date-bcsx">
+                <span>14</span>
+                <small>JAN</small>
+              </div>
+              <img src="images/blog-1.jpg" alt="blog-post" class="img-fluid">
+            </div>
+            <div class="blog-info-xghgs">
+              <h6>I saw few die of hunger of eating, a hundred thousand.</h6>
+              <p class="text-grey">Integer vitae mi libero. Aliquam consequat dolor libero, nec varius elit
+                tempusporttitor.</p>
+
+              <div class="blog-btn-xds mt-4">
+                <a href="#" class="theme-text btn-bar-sxds">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-right" data-aos-duration="1500" data-aos-dealay="100">
+          <div class="article-card-xcss">
+            <div class="blog-img-xds">
+              <div class="blog-date-bcsx">
+                <span>07</span>
+                <small>AUG</small>
+              </div>
+              <img src="images/blog-2.jpg" alt="blog-post" class="img-fluid">
+            </div>
+            <div class="blog-info-xghgs">
+              <h6>I saw few die of hunger of eating, a hundred thousand.</h6>
+              <p class="text-grey">Integer vitae mi libero. Aliquam consequat dolor libero, nec varius elit
+                tempusporttitor.</p>
+
+              <div class="blog-btn-xds mt-4">
+                <a href="#" class="theme-text btn-bar-sxds">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-right" data-aos-duration="2000" data-aos-dealay="100">
+          <div class="article-card-xcss">
+            <div class="blog-img-xds">
+              <div class="blog-date-bcsx">
+                <span>22</span>
+                <small>ARP</small>
+              </div>
+              <img src="images/blog-3.jpg" alt="blog-post" class="img-fluid">
+            </div>
+            <div class="blog-info-xghgs">
+              <h6>I saw few die of hunger of eating, a hundred thousand.</h6>
+              <p class="text-grey">Integer vitae mi libero. Aliquam consequat dolor libero, nec varius elit
+                tempusporttitor.</p>
+
+              <div class="blog-btn-xds mt-4">
+                <a href="#" class="theme-text btn-bar-sxds">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Blog Section end -->
+  <!-- =============================== -->
+
+  <!-- =============================== -->
+  <!-- Contact Section start -->
+  <!-- =============================== -->
+  <section class="gradient-banner" id="contact-slink">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 col-lg-6 my-3">
+          <div class="contact-card-cfsa">
+            <div class="text-white">
+              <span class="heading-font s-title fs-4 fw-bold">Contact us</span>
+            </div>
+            <form class="mt-4" action="" method="post">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 my-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+                  <div class="fm-control-sm">
+                    <input type="text" id="name" name="name" value="" required>
+                    <label>Name</label>
+                    <span class="invalid-field" id="forName">Name is required</span>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 my-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+                  <div class="fm-control-sm">
+                    <input type="text" id="email" name="email" value="" required>
+                    <label>Email</label>
+                    <span class="invalid-field" id="forEmail">Email is required</span>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 my-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+                  <div class="fm-control-sm">
+                    <input type="text" id="subject" name="subject" value="" required>
+                    <label>Subject</label>
+                    <span class="invalid-field" id="forSubject">Subject is required</span>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 my-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+                  <div class="fm-control-big">
+                    <textarea id="message" name="message" rows="8" cols="80" required></textarea>
+                    <label>Comment</label>
+                    <span class="invalid-field" id="forMessage">Comment is required</span>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mt-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+                  <button type="submit" id="sendEmail" name="submit" class="btn btn-prime fw-md">
+                    Send your message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 my-3">
+          <div class="address-area text-grey">
+            <div class="text-white" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+              <span class="heading-font s-title fs-4 fw-bold">Get in touch</span>
+            </div>
+            <div class="mt-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+              <p>Always available for freelancing if the right project comes along, Feel free to contact me.</p>
+            </div>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100" >
+              <div class="contact-icon-fdhda">
+                <i class="fa-regular fa-map"></i>
+              </div>
+              <div class="contact-data-fdhda">
+                <span>
+                  123 Stree New York City,
+                  <br>
+                  United States Of America
+                  <br>
+                  NY 750065.
+                </span>
+              </div>
+            </div>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+              <div class="contact-icon-fdhda">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-data-fdhda">
+                <span>
+                  ghodvinde227@gmail.com <br>
+                  vikrant.ghodvinde2@gmail.com
+                </span>
+              </div>
+            </div>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-duration="1200" data-aos-dealay="100">
+              <div class="contact-icon-fdhda">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <div class="contact-data-fdhda">
+                <span>+91 992 3419 339
+                  <br>
+                  +91 703 8486 826
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =============================== -->
+  <!-- Contact Section end -->
+  <!-- =============================== -->
+
+  <!-- =============================== -->
+  <!-- footer start -->
+  <!-- =============================== -->
+  <footer class="grey-banner py-4">
+    <div class="container text-white">
+      <div class="d-flex align-items-center justify-content-between flex-column flex-sm-column flex-md-row">
+        <div class="my-1">
+          <a href="#" class="footercons-cvskds">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/ghodvindevicky" class="footercons-cvskds">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/vicky027_/" class="footercons-cvskds">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="footercons-cvskds">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <div class="my-1">
+          <p class="fs-xs">&copy; 2022 Vikrant Ghodvinde Portfolio</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- =============================== -->
+  <!-- footer end -->
+  <!-- =============================== -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <script>
+    AOS.init();
+
+    $(document).ready(function() {
+      $('.cat-xsgs012').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+      });
+      $('.cat-xsgs012').click(function (){
+        const value = $(this).attr('data-filter');
+        if(value == 'All'){
+          $(".portfolio-items").show('1000');
+        }
+        else{
+          $(".portfolio-items").not('.'+value).hide('1000');
+          $(".portfolio-items").filter('.'+value).show('1000');
+        }
+      });
+
+      $('.s-link-bxb li').mouseover(function() {
+        $('.menus').addClass('changed');
+      });
+      $('.s-link-bxb li').mouseout(function() {
+        $('.menus').removeClass('changed');
+      });
+    });
+  </script>
+
+</body>
 </html>
