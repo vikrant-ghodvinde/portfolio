@@ -11,8 +11,8 @@ const Navbar = () => {
       <Link
         href="/"
         className={`inline-flex flex-col items-center justify-center gap-1 w-14 lg:w-full xl:w-16 h-14 xl:h-16 text-white ${
-          pathname === "/" ? "bg-blue-500" : "bg-dark"
-        } hover:bg-blue-500 rounded-lg transition duration-300`}
+          pathname === "/" ? "bg-purple-700" : "bg-dark"
+        } hover:bg-purple-700 rounded-lg transition duration-300`}
       >
         <i className="fa-solid fa-address-card"></i>
         <span className="block text-[10px] lg:text-xs font-medium">About</span>
@@ -20,8 +20,8 @@ const Navbar = () => {
       <Link
         href="/resume"
         className={`inline-flex flex-col items-center justify-center gap-1 w-14 lg:w-full xl:w-16 h-14 xl:h-16 text-white ${
-            pathname === "/resume" ? "bg-blue-500" : "bg-dark"
-          } hover:bg-blue-500 rounded-lg transition duration-300`}
+            pathname === "/resume" ? "bg-purple-700" : "bg-dark"
+          } hover:bg-purple-700 rounded-lg transition duration-300`}
       >
         <i className="fa-solid fa-file-lines"></i>
         <span className="block text-[10px] lg:text-xs font-medium">Resume</span>
@@ -29,8 +29,8 @@ const Navbar = () => {
       <Link
         href="/work"
         className={`inline-flex flex-col items-center justify-center gap-1 w-14 lg:w-full xl:w-16 h-14 xl:h-16 text-white ${
-          pathname === "/work" ? "bg-blue-500" : "bg-dark"
-        } hover:bg-blue-500 rounded-lg transition duration-300`}
+          pathname === "/work" ? "bg-purple-700" : "bg-dark"
+        } hover:bg-purple-700 rounded-lg transition duration-300`}
       >
         <i className="fa-solid fa-briefcase"></i>
         <span className="block text-[10px] lg:text-xs font-medium">Work</span>
@@ -38,8 +38,8 @@ const Navbar = () => {
       <Link
         href="/contact"
         className={`inline-flex flex-col items-center justify-center gap-1 w-14 lg:w-full xl:w-16 h-14 xl:h-16 text-white ${
-          pathname === "/contact" ? "bg-blue-500" : "bg-dark"
-        } hover:bg-blue-500 rounded-lg transition duration-300`}
+          pathname === "/contact" ? "bg-purple-700" : "bg-dark"
+        } hover:bg-purple-700 rounded-lg transition duration-300`}
       >
         <i className="fa-solid fa-address-book"></i>
         <span className="block text-[10px] lg:text-xs font-medium">Contact</span>

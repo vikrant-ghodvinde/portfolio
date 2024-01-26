@@ -114,7 +114,7 @@ const UserInfo = () => {
         <div className="relative w-full text-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 py-3 px-7 text-white font-medium bg-blue-500 hover:bg-dark rounded-lg transition duration-300"
+            className="inline-flex items-center gap-2 py-3 px-7 text-white font-medium bg-purple-700 hover:bg-dark rounded-lg transition duration-300"
           >
             <i className="fa-solid fa-download"></i> Download CV
           </Link>

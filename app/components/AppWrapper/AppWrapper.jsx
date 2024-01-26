@@ -12,12 +12,12 @@ const AppWrapper = ({ children }) => {
       </div>
       <div className="grid grid-cols-12 gap-5">
         <div className="relative col-span-12 lg:col-span-3 xl:col-span-3">
-          <div className="relative w-full lg:sticky lg:top-3 bg-black p-5 rounded-2xl">
+          <div className="relative w-full lg:sticky lg:top-34 bg-black p-5 rounded-2xl">
             <UserInfo />
           </div>
         </div>
         <div className="relative col-span-12 lg:col-span-7 xl:col-span-8">
-          <div className="relative bg-black p-5 rounded-2xl">
+          <div className="relative bg-black rounded-2xl overflow-hidden">
             {children}
             <Footer />
           </div>

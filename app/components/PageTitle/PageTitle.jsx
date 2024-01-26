@@ -5,9 +5,9 @@ const roboto_slab = Roboto_Slab({ subsets: ["latin"] });
 
 const PageTitle = ({ title }) => {
   return (
-    <div className="relative mb-8">
+    <div className="relative mb-14">
       <h2
-        className={`relative inline-block text-3xl lg:text-4xl font-bold text-white ${roboto_slab.className} after:absolute after:left-0 after:-bottom-2 after:w-full after:h-[2px] after:bg-blue-500 after:rounded-lg`}
+        className={`relative inline-block text-3xl lg:text-4xl font-bold text-white ${roboto_slab.className} after:absolute after:left-0 after:-bottom-2 after:w-full after:h-[2px] after:bg-purple-700 after:rounded-lg`}
       >
         {title}
       </h2>
