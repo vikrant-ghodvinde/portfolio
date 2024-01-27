@@ -38,7 +38,7 @@ const UserInfo = () => {
             <Link
               href=""
               target="_blank"
-              className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-blue-500 hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
+              className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
@@ -52,14 +52,14 @@ const UserInfo = () => {
             <Link
               href=""
               target="_blank"
-              className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-pink-700 hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
+              className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-instagram"></i>
             </Link>
             <Link
               href=""
               target="_blank"
-              className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-blue-700 hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
+              className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
@@ -67,46 +67,46 @@ const UserInfo = () => {
         </div>
         <div className="relative w-full bg-dark rounded-2xl p-4">
           <div className="relative w-full py-2 border-b last:border-0 border-secondary-dark flex items-center gap-2">
-            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-pink-500">
+            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-white">
               <i className="fa-solid fa-mobile-screen-button"></i>
             </div>
             <div className="relative">
-              <p className="text-xs">Phone</p>
-              <span className="block text-md text-white font-medium">
-                +123 456 7890
+              <p className="text-xs text-purple-700">Phone</p>
+              <span className="block text-sm text-white font-medium">
+                +91 9923419339
               </span>
             </div>
           </div>
           <div className="relative w-full py-2 border-b last:border-0 border-secondary-dark flex items-center gap-2">
-            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-cyan-300">
+            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-white">
               <i className="fa-solid fa-envelope"></i>
             </div>
             <div className="relative">
-              <p className="text-xs">Email</p>
-              <span className="block text-md text-white font-medium">
-                +123 456 7890
+              <p className="text-xs text-purple-700">Email</p>
+              <span className="block text-sm text-white font-medium">
+                ghodvinde227@gmail.com
               </span>
             </div>
           </div>
           <div className="relative w-full py-2 border-b last:border-0 border-secondary-dark flex items-center gap-2">
-            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-red-400">
+            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-white">
               <i className="fa-solid fa-location-dot"></i>
             </div>
             <div className="relative">
-              <p className="text-xs">Phone</p>
-              <span className="block text-md text-white font-medium">
-                +123 456 7890
+              <p className="text-xs text-purple-700">Location</p>
+              <span className="block text-sm text-white font-medium">
+                Mumbai, India
               </span>
             </div>
           </div>
           <div className="relative w-full py-2 border-b last:border-0 border-secondary-dark flex items-center gap-2">
-            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-purple-400">
+            <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-white">
               <i className="fa-regular fa-calendar-days"></i>
             </div>
             <div className="relative">
-              <p className="text-xs">Phone</p>
-              <span className="block text-md text-white font-medium">
-                +123 456 7890
+              <p className="text-xs text-purple-700">Birthday</p>
+              <span className="block text-sm text-white font-medium">
+                July 27, 2000
               </span>
             </div>
           </div>

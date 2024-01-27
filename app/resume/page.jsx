@@ -17,34 +17,34 @@ const Resume = () => {
               <div className="grid grid-cols-1 gap-5">
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021-2024</span>
-                    <h4 className="text-lg">
-                      <span className="text-white font-medium">
-                        Ph.D in Horriblensess
+                    <span className="block text-sm mb-3">2018 - 2021</span>
+                    <h4 className="text-md">
+                      <span className="text-lg text-white font-medium">
+                        Bachelor in Information Technology
                       </span>{" "}
-                      - University, Los Angeles, CA
+                      - University of Mumbai
                     </h4>
                   </div>
                 </div>
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021-2024</span>
-                    <h4 className="text-lg">
-                      <span className="text-white font-medium">
-                        Ph.D in Horriblensess
+                    <span className="block text-sm mb-3">2017 - 2018</span>
+                    <h4 className="text-md">
+                      <span className="text-lg text-white font-medium">
+                        Higher Secondary School Certificate
                       </span>{" "}
-                      - University, Los Angeles, CA
+                      - SV Jr. College, Wada
                     </h4>
                   </div>
                 </div>
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021-2024</span>
-                    <h4 className="text-lg">
-                      <span className="text-white font-medium">
-                        Ph.D in Horriblensess
+                    <span className="block text-sm mb-3">2016 - 2017</span>
+                    <h4 className="text-md">
+                      <span className="text-lg text-white font-medium">
+                        Secondary School Certificate
                       </span>{" "}
-                      - University, Los Angeles, CA
+                      - SVM School, Wada
                     </h4>
                   </div>
                 </div>
@@ -58,34 +58,23 @@ const Resume = () => {
               <div className="grid grid-cols-1 gap-5">
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021-2024</span>
-                    <h4 className="text-lg">
-                      <span className="text-white font-medium">
-                        Ph.D in Horriblensess
+                    <span className="block text-sm mb-3">2021 - Present</span>
+                    <h4 className="text-md">
+                      <span className="text-lg text-white font-medium">
+                        Erience Solutions
                       </span>{" "}
-                      - University, Los Angeles, CA
+                      - Working as a Frontend Developer
                     </h4>
                   </div>
                 </div>
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021-2024</span>
-                    <h4 className="text-lg">
-                      <span className="text-white font-medium">
-                        Ph.D in Horriblensess
+                    <span className="block text-sm mb-3">2019 - 2021</span>
+                    <h4 className="text-md">
+                      <span className="text-lg text-white font-medium">
+                        Freelancing
                       </span>{" "}
-                      - University, Los Angeles, CA
-                    </h4>
-                  </div>
-                </div>
-                <div className="relative">
-                  <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021-2024</span>
-                    <h4 className="text-lg">
-                      <span className="text-white font-medium">
-                        Ph.D in Horriblensess
-                      </span>{" "}
-                      - University, Los Angeles, CA
+                      - Working as a Freelancer till Graduation.
                     </h4>
                   </div>
                 </div>
@@ -107,7 +96,7 @@ const Resume = () => {
                       <span>95%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[95%] h-full bg-blue-500 rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[95%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -118,7 +107,7 @@ const Resume = () => {
                       <span>80%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[80%] h-full bg-green-500 rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[80%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -129,7 +118,7 @@ const Resume = () => {
                       <span>60%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[60%] h-full bg-red-500 rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[60%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -140,7 +129,7 @@ const Resume = () => {
                       <span>75%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[75%] h-full bg-orange-500 rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[75%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -155,19 +144,19 @@ const Resume = () => {
                   ReactJS
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  Tailwind CSS
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   Redux
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
-                  Redux Too
+                  Redux Toolkit
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   NextJS
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   ElectronJS
-                </div>
-                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
-                  Tailwind CSS
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   CSS3

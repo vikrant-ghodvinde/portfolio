@@ -23,7 +23,7 @@ const Home = () => {
             <div className="relative col-span-2 sm:col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
-                  <div className="relative text-4xl text-purple-600">
+                  <div className="relative text-4xl text-purple-700">
                     <i className="fa-solid fa-swatchbook"></i>
                   </div>
                   <div className="relative">
@@ -41,7 +41,7 @@ const Home = () => {
             <div className="relative col-span-2 sm:col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
-                  <div className="relative text-4xl text-red-600">
+                  <div className="relative text-4xl text-purple-700">
                     <i class="fa-solid fa-code"></i>
                   </div>
                   <div className="relative">
@@ -59,7 +59,7 @@ const Home = () => {
             <div className="relative col-span-2 sm:col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
-                  <div className="relative text-4xl text-pink-600">
+                  <div className="relative text-4xl text-purple-700">
                     <i class="fa-solid fa-laptop-code"></i>
                   </div>
                   <div className="relative">
@@ -77,7 +77,7 @@ const Home = () => {
             <div className="relative col-span-2 sm:col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
-                  <div className="relative text-4xl text-blue-600">
+                  <div className="relative text-4xl text-purple-700">
                     <i class="fa-solid fa-camera-retro"></i>
                   </div>
                   <div className="relative">

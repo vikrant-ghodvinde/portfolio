@@ -14,7 +14,6 @@ body {
   height: 100%;
   min-height: 100vh;
   color: #a6a6a6;
-  background: #000;
   background: url("/images/bg-dark.jpg") center no-repeat fixed;
   background-size: cover;
   z-index: 1;

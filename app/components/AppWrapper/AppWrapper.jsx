@@ -17,7 +17,7 @@ const AppWrapper = ({ children }) => {
           </div>
         </div>
         <div className="relative col-span-12 lg:col-span-7 xl:col-span-8">
-          <div className="relative bg-black rounded-2xl overflow-hidden">
+          <div className="relative bg-black rounded-2xl overflow-hidden shadow-full">
             {children}
             <Footer />
           </div>
