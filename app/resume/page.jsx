@@ -11,7 +11,7 @@ const Resume = () => {
           <div className="grid grid-cols-2 gap-x-5 gap-y-10">
             <div className="relative col-span-2 md:col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="flex items-center gap-3 text-2xl font-medium text-white mb-5">
-                <i class="fa-solid fa-school text-purple-700"></i>
+                <i className="fa-solid fa-school text-purple-700"></i>
                 <h3>Education</h3>
               </div>
               <div className="grid grid-cols-1 gap-5">
@@ -52,7 +52,7 @@ const Resume = () => {
             </div>
             <div className="relative col-span-2 md:col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="flex items-center gap-3 text-2xl font-medium text-white mb-5">
-                <i class="fa-solid fa-briefcase text-purple-700"></i>
+                <i className="fa-solid fa-briefcase text-purple-700"></i>
                 <h3>Experience</h3>
               </div>
               <div className="grid grid-cols-1 gap-5">

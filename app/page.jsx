@@ -42,7 +42,7 @@ const Home = () => {
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
                   <div className="relative text-4xl text-purple-700">
-                    <i class="fa-solid fa-code"></i>
+                    <i className="fa-solid fa-code"></i>
                   </div>
                   <div className="relative">
                     <h4 className="text-xl font-semibold text-white mb-4">
@@ -60,7 +60,7 @@ const Home = () => {
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
                   <div className="relative text-4xl text-purple-700">
-                    <i class="fa-solid fa-laptop-code"></i>
+                    <i className="fa-solid fa-laptop-code"></i>
                   </div>
                   <div className="relative">
                     <h4 className="text-xl font-semibold text-white mb-4">
@@ -78,7 +78,7 @@ const Home = () => {
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
                   <div className="relative text-4xl text-purple-700">
-                    <i class="fa-solid fa-camera-retro"></i>
+                    <i className="fa-solid fa-camera-retro"></i>
                   </div>
                   <div className="relative">
                     <h4 className="text-xl font-semibold text-white mb-4">

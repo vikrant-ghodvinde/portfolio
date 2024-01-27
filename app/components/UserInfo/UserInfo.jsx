@@ -9,13 +9,13 @@ const UserInfo = () => {
   return (
     <div className="relative w-full">
       <div className="grid grid-cols-1 gap-6">
-        <div className="relative w-full max-w-60 max-h-60 mx-auto lg:-mt-36 overflow-hidden rounded-2xl">
+        <div className="relative group w-full max-w-60 max-h-60 mx-auto lg:-mt-36 overflow-hidden rounded-2xl">
           <Image
-            src="/images/user.jpg"
+            src="/images/user.webp"
             alt=""
             width={500}
             height={500}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition duration-500"
           />
         </div>
         <div className="relative w-full flex flex-col items-center justify-center gap-3">
