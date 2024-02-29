@@ -20,7 +20,7 @@ const UserInfo = () => {
         </div>
         <div className="relative w-full flex flex-col items-center justify-center gap-3">
           <h1
-            className={`text-2xl font-bold text-white ${robotoSlab.className}`}
+            className={`text-2xl font-bold text-white text-center ${robotoSlab.className}`}
           >
             Vikrant Ghodvinde
           </h1>
