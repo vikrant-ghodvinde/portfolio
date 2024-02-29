@@ -72,7 +72,7 @@ const UserInfo = () => {
             </div>
             <div className="relative">
               <p className="text-xs text-purple-700">Phone</p>
-              <span className="block text-sm text-white font-medium">
+              <span className="block text-sm text-white font-medium break-all">
                 +91 9923419339
               </span>
             </div>
@@ -83,7 +83,7 @@ const UserInfo = () => {
             </div>
             <div className="relative">
               <p className="text-xs text-purple-700">Email</p>
-              <span className="block text-sm text-white font-medium">
+              <span className="block text-sm text-white font-medium break-all">
                 ghodvinde227@gmail.com
               </span>
             </div>
@@ -94,7 +94,7 @@ const UserInfo = () => {
             </div>
             <div className="relative">
               <p className="text-xs text-purple-700">Location</p>
-              <span className="block text-sm text-white font-medium">
+              <span className="block text-sm text-white font-medium break-all">
                 Mumbai, India
               </span>
             </div>
@@ -105,7 +105,7 @@ const UserInfo = () => {
             </div>
             <div className="relative">
               <p className="text-xs text-purple-700">Birthday</p>
-              <span className="block text-sm text-white font-medium">
+              <span className="block text-sm text-white font-medium break-all">
                 July 27, 2000
               </span>
             </div>
