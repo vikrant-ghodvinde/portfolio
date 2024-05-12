@@ -29,35 +29,35 @@ const UserInfo = () => {
           </div>
           <div className="flex items-center justify-between gap-3 flex-wrap">
             <Link
-              href=""
+              href="https://github.com/vikrant-ghodvinde"
               target="_blank"
               className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-github"></i>
             </Link>
             <Link
-              href=""
+              href="https://www.linkedin.com/in/vikrant-ghodvinde-2224a1287/"
               target="_blank"
               className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
             <Link
-              href=""
+              href="https://twitter.com/GhodvindeVicky"
               target="_blank"
               className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-x-twitter"></i>
             </Link>
             <Link
-              href=""
+              href="https://www.instagram.com/vicky027_"
               target="_blank"
               className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
               <i className="fa-brands fa-instagram"></i>
             </Link>
             <Link
-              href=""
+              href="https://www.facebook.com/Vickys2707"
               target="_blank"
               className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
@@ -68,12 +68,12 @@ const UserInfo = () => {
         <div className="relative w-full bg-dark rounded-2xl p-4">
           <div className="relative w-full py-2 border-b last:border-0 border-secondary-dark flex items-center gap-2">
             <div className="relative w-12 min-w-12 h-12 bg-black inline-flex items-center justify-center p-2 rounded-lg text-xl text-white">
-              <i className="fa-solid fa-mobile-screen-button"></i>
+              <i className="fa-brands fa-whatsapp"></i>
             </div>
             <div className="relative">
-              <p className="text-xs text-purple-700">Phone</p>
+              <p className="text-xs text-purple-700">WhatsApp</p>
               <span className="block text-sm text-white font-medium break-all">
-                +91 9923419339
+                +91 7038486826
               </span>
             </div>
           </div>
@@ -113,7 +113,7 @@ const UserInfo = () => {
         </div>
         <div className="relative w-full text-center">
           <Link
-            href="/"
+            href="/assets/cv/vikrant-ghodvinde-cv.pdf"
             className="inline-flex items-center gap-2 py-3 px-7 text-white font-medium bg-purple-700 hover:bg-dark rounded-lg transition duration-300"
           >
             <i className="fa-solid fa-download"></i> Download CV

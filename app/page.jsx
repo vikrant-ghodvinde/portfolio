@@ -8,13 +8,20 @@ const Home = () => {
         <div className="relative w-full py-12 px-5 pb-0 md:px-12 md:pb-0">
           <PageTitle title="About" />
           <p className="mb-4">
-            I am Creative Director and UI/UX Designer from Sydney, Australia,
-            working in web development and print media. I enjoy turning complex
-            problems into simple, beautiful and intuitive designs.
+            I am a passionate frontend web developer and React Native enthusiast
+            hailing from Maharashtra, India. With a knack for transforming
+            intricate challenges into elegant solutions, I specialize in
+            crafting intuitive designs that seamlessly blend simplicity with
+            beauty.
           </p>
           <p>
-            My aim is to bring across your message and identity in the most
-            creative way. I created web design for many famous brand companies.
+            My mission is to convey your message and identity through the lens
+            of creativity, ensuring that every project I undertake reflects your
+            vision in the most compelling and innovative manner possible.
+            Leveraging my expertise in ReactJS, Next.js, React Native, and Expo,
+            I am dedicated to developing websites and mobile applications that
+            not only meet but exceed expectations, delivering an unparalleled
+            user experience every time.
           </p>
         </div>
         <div className="relative w-full py-12 px-5 md:px-12">
@@ -31,8 +38,9 @@ const Home = () => {
                       Interaction Design
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quo, laborum consectetur! Eos culpa facere ea.
+                      I design user-friendly interfaces that are both
+                      interactive and responsive, meeting clients specific needs
+                      for mobile and desktop platforms.
                     </p>
                   </div>
                 </div>
@@ -49,8 +57,9 @@ const Home = () => {
                       Web Development
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quo, laborum consectetur! Eos culpa facere ea.
+                      I specialize in developing custom websites tailored to
+                      clients precise needs, ensuring every detail aligns with
+                      their vision.
                     </p>
                   </div>
                 </div>
@@ -67,8 +76,9 @@ const Home = () => {
                       App Development
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quo, laborum consectetur! Eos culpa facere ea.
+                      I develop custom mobile apps for both Android and iOS,
+                      leveraging React Native to meet clients unique
+                      specifications and preferences.
                     </p>
                   </div>
                 </div>
@@ -85,8 +95,9 @@ const Home = () => {
                       Photography
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quo, laborum consectetur! Eos culpa facere ea.
+                      I have a passion for capturing the beauty of fleeting
+                      moments through my lens, using my own camera to
+                      immortalize them in photographs.
                     </p>
                   </div>
                 </div>

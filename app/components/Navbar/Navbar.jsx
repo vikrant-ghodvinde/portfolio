@@ -35,7 +35,7 @@ const Navbar = () => {
         <i className="fa-solid fa-briefcase"></i>
         <span className="block text-[10px] lg:text-xs font-medium">Work</span>
       </Link>
-      <Link
+      {/* <Link
         href="/contact"
         className={`inline-flex flex-col items-center justify-center gap-1 w-14 lg:w-full xl:w-16 h-14 xl:h-16 text-white ${
           pathname === "/contact" ? "bg-purple-700" : "bg-dark"
@@ -43,7 +43,7 @@ const Navbar = () => {
       >
         <i className="fa-solid fa-address-book"></i>
         <span className="block text-[10px] lg:text-xs font-medium">Contact</span>
-      </Link>
+      </Link> */}
     </div>
   );
 };
