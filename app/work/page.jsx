@@ -26,7 +26,7 @@ const Work = () => {
               <div className="relative col-span-12 md:col-span-6 lg:col-span-6">
                 <Link
                   href="#"
-                  className="block w-full h-full p-0.5 bg-white hover:bg-purple-700 rounded-xl overflow-hidden transition-all duration-300"
+                  className="block group w-full h-full border-2 border-white hover:border-purple-700 rounded-xl overflow-hidden transition-all duration-300"
                 >
                   <Image
                     src="/images/work/wallet-home.png"
@@ -34,14 +34,14 @@ const Work = () => {
                     width={500}
                     height={500}
                     unoptimized
-                    className="w-full h-full object-cover rounded-xl overflow-hidden"
+                    className="w-full h-full object-cover rounded-xl overflow-hidden group-hover:scale-105 transition-all duration-500"
                   />
                 </Link>
               </div>
               <div className="relative col-span-12 md:col-span-6 lg:col-span-6">
                 <Link
                   href="#"
-                  className="block w-full h-full p-0.5 bg-white hover:bg-purple-700 rounded-xl overflow-hidden transition-all duration-300"
+                  className="block group w-full h-full border-2 border-white hover:border-purple-700 rounded-xl overflow-hidden transition-all duration-300"
                 >
                   <Image
                     src="/images/work/crypto-swap.png"
@@ -49,7 +49,7 @@ const Work = () => {
                     width={500}
                     height={500}
                     unoptimized
-                    className="w-full h-full object-cover rounded-xl overflow-hidden"
+                    className="w-full h-full object-cover rounded-xl overflow-hidden group-hover:scale-105 transition-all duration-500"
                   />
                 </Link>
               </div>
