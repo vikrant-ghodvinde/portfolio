@@ -33,6 +33,7 @@ const Work = () => {
                     alt="crypto wallet"
                     width={500}
                     height={500}
+                    unoptimized
                     className="w-full h-full object-cover rounded-xl overflow-hidden"
                   />
                 </Link>
@@ -47,6 +48,7 @@ const Work = () => {
                     alt="crypto wallet"
                     width={500}
                     height={500}
+                    unoptimized
                     className="w-full h-full object-cover rounded-xl overflow-hidden"
                   />
                 </Link>
