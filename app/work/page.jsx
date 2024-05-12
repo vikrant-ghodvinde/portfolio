@@ -44,7 +44,7 @@ const Work = () => {
                   className="block w-full h-full p-0.5 bg-white hover:bg-purple-700 rounded-xl overflow-hidden transition-all duration-300"
                 >
                   <Image
-                    src="/images/work/wallet-swap.png"
+                    src="/images/work/crypto-swap.png"
                     alt="crypto wallet"
                     width={500}
                     height={500}
