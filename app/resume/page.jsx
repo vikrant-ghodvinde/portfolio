@@ -104,10 +104,21 @@ const Resume = () => {
                   <div className="relative w-full">
                     <div className="relative w-full flex items-center justify-between gap-3 mb-2">
                       <h6>Web Developing</h6>
-                      <span>80%</span>
+                      <span>90%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[80%] h-full bg-primary-gradient rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[90%] h-full bg-primary-gradient rounded-xl"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="relative w-full">
+                    <div className="relative w-full flex items-center justify-between gap-3 mb-2">
+                      <h6>App Developing</h6>
+                      <span>70%</span>
+                    </div>
+                    <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
+                      <div className="absolute left-0 top-0 w-[70%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -115,10 +126,10 @@ const Resume = () => {
                   <div className="relative w-full">
                     <div className="relative w-full flex items-center justify-between gap-3 mb-2">
                       <h6>Web Backend</h6>
-                      <span>60%</span>
+                      <span>55%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[60%] h-full bg-primary-gradient rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[55%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -126,10 +137,10 @@ const Resume = () => {
                   <div className="relative w-full">
                     <div className="relative w-full flex items-center justify-between gap-3 mb-2">
                       <h6>Photoshop</h6>
-                      <span>75%</span>
+                      <span>80%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[75%] h-full bg-primary-gradient rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[80%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -142,6 +153,9 @@ const Resume = () => {
               <div className="flex items-center gap-3 flex-wrap">
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   ReactJS
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  React Native
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   Tailwind CSS
@@ -159,16 +173,16 @@ const Resume = () => {
                   ElectronJS
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
-                  CSS3
-                </div>
-                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
-                  HTML5
-                </div>
-                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   JavaScript
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   JQuery
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  CSS3
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  HTML5
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   Bootstrap
