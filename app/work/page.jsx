@@ -30,7 +30,7 @@ const Work = () => {
                 >
                   <Image
                     src="/images/work/wallet-home.png"
-                    alt=""
+                    alt="crypto wallet"
                     width={500}
                     height={500}
                     className="w-full h-full object-cover rounded-xl overflow-hidden"
@@ -44,7 +44,7 @@ const Work = () => {
                 >
                   <Image
                     src="/images/work/wallet-swap.png"
-                    alt=""
+                    alt="crypto wallet"
                     width={500}
                     height={500}
                     className="w-full h-full object-cover rounded-xl overflow-hidden"
