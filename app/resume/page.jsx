@@ -115,21 +115,21 @@ const Resume = () => {
                   <div className="relative w-full">
                     <div className="relative w-full flex items-center justify-between gap-3 mb-2">
                       <h6>App Developing</h6>
-                      <span>70%</span>
+                      <span>85%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[70%] h-full bg-primary-gradient rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[85%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
                 <div className="relative">
                   <div className="relative w-full">
                     <div className="relative w-full flex items-center justify-between gap-3 mb-2">
-                      <h6>Web Backend</h6>
-                      <span>55%</span>
+                      <h6>App Backend</h6>
+                      <span>75%</span>
                     </div>
                     <div className="relative w-full h-1.5 bg-white rounded-xl overflow-hidden">
-                      <div className="absolute left-0 top-0 w-[55%] h-full bg-primary-gradient rounded-xl"></div>
+                      <div className="absolute left-0 top-0 w-[75%] h-full bg-primary-gradient rounded-xl"></div>
                     </div>
                   </div>
                 </div>
@@ -158,6 +158,9 @@ const Resume = () => {
                   React Native
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  Node JS
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   Tailwind CSS
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
@@ -177,6 +180,9 @@ const Resume = () => {
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   JQuery
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  MySQL
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   CSS3

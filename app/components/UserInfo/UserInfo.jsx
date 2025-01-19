@@ -25,7 +25,7 @@ const UserInfo = () => {
             Vikrant Ghodvinde
           </h1>
           <div className="inline-block relative py-2 px-5 bg-dark text-sm font-medium rounded-md">
-            Front-End Developer
+            Full Stack Developer
           </div>
           <div className="flex items-center justify-between gap-3 flex-wrap">
             <Link
@@ -114,6 +114,7 @@ const UserInfo = () => {
         <div className="relative w-full text-center">
           <Link
             href="/assets/cv/vikrant-ghodvinde-cv.pdf"
+            target="_blank"
             className="inline-flex items-center gap-2 py-3 px-7 text-white font-medium bg-purple-700 hover:bg-dark rounded-lg transition duration-300"
           >
             <i className="fa-solid fa-download"></i> Download CV
