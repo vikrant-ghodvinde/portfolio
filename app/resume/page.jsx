@@ -179,6 +179,9 @@ const Resume = () => {
                   JavaScript
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
+                  TypeScript
+                </div>
+                <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">
                   JQuery
                 </div>
                 <div className="inline-block relative py-2.5 px-5 bg-dark text-sm font-medium rounded-md">

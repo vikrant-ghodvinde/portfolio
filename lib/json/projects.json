@@ -21,10 +21,12 @@
       "Nodejs",
       "MySQL"
     ],
-    "project_link": {
-      "type": "",
-      "link": ""
-    }
+    "project_link": [
+      {
+        "type": "",
+        "link": ""
+      }
+    ]
   },
   {
     "name": "Meal One",
@@ -49,10 +51,12 @@
       "Nodejs",
       "MySQL"
     ],
-    "project_link": {
-      "type": "",
-      "link": ""
-    }
+    "project_link": [
+      {
+        "type": "",
+        "link": ""
+      }
+    ]
   },
   {
     "name": "AI ChatBot",
@@ -62,7 +66,7 @@
       "/images/projects/3/2.jpg",
       "/images/projects/3/3.jpg"
     ],
-    "tech_stack": ["React Native", "Expo", "Tailwind", "Nodejs", "MongoDB"],
+    "tech_stack": ["React Native", "Expo", "Tailwind", "Nodejs"],
     "project_link": [
       {
         "type": "Github",
@@ -71,7 +75,7 @@
     ]
   },
   {
-    "name": "AI ChatBot",
+    "name": "Threads Clone",
     "description": "Developed a full-stack social media platform inspired by Meta’s Threads, focusing on seamless user interactions and real-time content sharing. Implemented core features such as posting, liking, commenting, and profile viewing using ReactJS. Utilized Redux for robust state management and Redux Persist for maintaining user sessions. Tailwind CSS was used to craft a clean, responsive, and modern UI. The app emphasizes scalability, user experience, and smooth performance across devices.",
     "images": [
       "/images/projects/4/1.jpg",
@@ -81,7 +85,7 @@
       "/images/projects/4/5.jpg",
       "/images/projects/4/6.jpg"
     ],
-    "tech_stack": ["React Native", "Expo", "Tailwind", "Nodejs", "MongoDB"],
+    "tech_stack": ["ReactJs", "Redux", "Tailwind", "Nodejs", "MongoDB"],
     "project_link": [
       {
         "type": "Github",

@@ -14,7 +14,7 @@ const Work = () => {
           <div className="grid grid-cols-12 gap-y-8 lg:gap-8">
             {projects?.map((item, index) => (
               <div key={index.toString()} className="col-span-12 md:col-span-6">
-                <ProjectBox images={item?.images} title={item?.title} description={item?.description} />
+                <ProjectBox {...item} />
               </div>
             ))}
           </div>
