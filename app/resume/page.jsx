@@ -69,7 +69,7 @@ const Resume = () => {
                 </div>
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2019 - 2021</span>
+                    <span className="block text-sm mb-3">2019 - 2022</span>
                     <h4 className="text-md">
                       <span className="text-lg text-white font-medium">
                         Freelancing
