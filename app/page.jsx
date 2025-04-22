@@ -103,8 +103,7 @@ const Home = () => {
                     <p>
                       Backend developer skilled in Node.js, Express, MongoDB,
                       and MySQL. Experienced in building scalable APIs,
-                      optimizing databases, and delivering secure,
-                      high-performance server-side solutions.
+                      optimizing databases.
                     </p>
                   </div>
                 </div>
