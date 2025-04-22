@@ -50,7 +50,7 @@ const UserInfo = () => {
               <i className="fa-brands fa-x-twitter"></i>
             </Link>
             <Link
-              href="https://www.instagram.com/vicky027_"
+              href="https://www.instagram.com/the_coding_things"
               target="_blank"
               className="inline-flex items-center justify-center p-2 relative w-9 h-9 text-md text-white hover:text-black bg-dark hover:bg-white rounded-md transition duration-300"
             >
