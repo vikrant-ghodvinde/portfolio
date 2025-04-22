@@ -14,7 +14,7 @@ const Home = () => {
             intuitive and scalable solutions that merge clean design with
             powerful functionality.
           </p>
-          <p>
+          <p className="mb-4">
             My mission is to translate your vision into reality through the lens
             of creativity and precision—whether it’s a responsive website, a
             dynamic web app, or a cross-platform mobile application. With
