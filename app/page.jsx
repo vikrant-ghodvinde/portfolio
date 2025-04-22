@@ -94,16 +94,17 @@ const Home = () => {
               <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
                 <div className="relative flex flex-col sm:flex-row gap-5">
                   <div className="relative text-4xl text-purple-700">
-                    <i className="fa-solid fa-camera-retro"></i>
+                    <i className="fa-brands fa-node"></i>
                   </div>
                   <div className="relative">
                     <h4 className="text-xl font-semibold text-white mb-4">
-                      Photography
+                      Backend Development
                     </h4>
                     <p>
-                      I have a passion for capturing the beauty of fleeting
-                      moments through my lens, using my own camera to
-                      immortalize them in photographs.
+                      Backend developer skilled in Node.js, Express, MongoDB,
+                      and MySQL. Experienced in building scalable APIs,
+                      optimizing databases, and delivering secure,
+                      high-performance server-side solutions.
                     </p>
                   </div>
                 </div>
