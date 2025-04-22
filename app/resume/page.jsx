@@ -58,7 +58,7 @@ const Resume = () => {
               <div className="grid grid-cols-1 gap-5">
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2021 - Present</span>
+                    <span className="block text-sm mb-3">2022 - Present</span>
                     <h4 className="text-md">
                       <span className="text-lg text-white font-medium">
                         Erience Solutions
