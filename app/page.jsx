@@ -8,20 +8,26 @@ const Home = () => {
         <div className="relative w-full py-12 px-5 pb-0 md:px-12 md:pb-0">
           <PageTitle title="About" />
           <p className="mb-4">
-            I am a passionate frontend web developer and React Native enthusiast
-            hailing from Maharashtra, India. With a knack for transforming
-            intricate challenges into elegant solutions, I specialize in
-            crafting intuitive designs that seamlessly blend simplicity with
-            beauty.
+            I am a passionate full-stack web developer and React Native
+            enthusiast from Maharashtra, India, with a flair for turning complex
+            ideas into seamless digital experiences. I specialize in building
+            intuitive and scalable solutions that merge clean design with
+            powerful functionality.
           </p>
           <p>
-            My mission is to convey your message and identity through the lens
-            of creativity, ensuring that every project I undertake reflects your
-            vision in the most compelling and innovative manner possible.
-            Leveraging my expertise in ReactJS, Next.js, React Native, and Expo,
-            I am dedicated to developing websites and mobile applications that
-            not only meet but exceed expectations, delivering an unparalleled
-            user experience every time.
+            My mission is to translate your vision into reality through the lens
+            of creativity and precision—whether it’s a responsive website, a
+            dynamic web app, or a cross-platform mobile application. With
+            expertise in ReactJS, Next.js, React Native, Expo, as well as
+            Node.js, Express, MongoDB, and MySQL, I bring end-to-end development
+            skills to the table.
+          </p>
+          <p>
+            From designing engaging user interfaces to engineering robust
+            backends, I’m committed to delivering solutions that not only meet
+            expectations but elevate the entire user journey. Every project I
+            take on is a collaboration—crafted with innovation, performance, and
+            long-term scalability in mind.
           </p>
         </div>
         <div className="relative w-full py-12 px-5 md:px-12">
