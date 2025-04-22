@@ -2,29 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection {
-  background-color: #037fff;
-  color: #fff;
-  text-shadow: none;
+@layer base {
+  ::selection {
+    @apply shadow-none text-black bg-white;
+  }
+
+  body {
+    @apply relative w-full h-full min-h-screen text-[#a6a6a6] bg-[url('/images/bg-dark.jpg')] bg-center bg-no-repeat bg-fixed bg-cover z-[1] before:absolute before:w-full before:h-full before:bg-black before:opacity-40 before:-z-[1];
+  }
+
+  .preloader {
+    @apply fixed left-0 top-0 w-full h-full min-h-screen bg-black z-[999999];
+  }
+
+  .preloader .loader {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[100px] font-black uppercase overflow-hidden before:content-[attr(data-loading-text)] before:text-[#333] after:absolute after:content-[attr(data-loading-text)] after:left-0 after:top-0 after:w-0 after:text-white after:overflow-hidden;
+  }
+  .preloader .loader::after {
+    animation: pre-loading 6s infinite;
+  }
 }
 
-body {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 100vh;
-  color: #a6a6a6;
-  background: url("/images/bg-dark.jpg") center no-repeat fixed;
-  background-size: cover;
-  z-index: 1;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: 0.4;
-  z-index: -1;
+/* ANIMATION KEYFRAMES */
+@keyframes pre-loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
