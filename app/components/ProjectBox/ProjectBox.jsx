@@ -47,7 +47,7 @@ const ProjectBox = ({
       <div className="relative w-full space-y-4">
         <h4 className="text-white text-xl font-semibold ">{name}</h4>
         <p className="text-sm font-normal line-clamp-6">{description}</p>
-        {project_link && (
+        {project_link[0]?.link && (
           <div className="flex flex-wrap gap-2">
             {project_link?.map((item, index) => (
               <Link

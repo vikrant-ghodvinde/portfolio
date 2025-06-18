@@ -14,7 +14,6 @@
   .preloader {
     @apply fixed left-0 top-0 w-full h-full min-h-screen bg-black z-[999999];
   }
-
   .preloader .loader {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[100px] font-black uppercase overflow-hidden before:content-[attr(data-loading-text)] before:text-[#333] after:absolute after:content-[attr(data-loading-text)] after:left-0 after:top-0 after:w-0 after:text-white after:overflow-hidden;
   }
