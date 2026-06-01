@@ -58,12 +58,23 @@ const Resume = () => {
               <div className="grid grid-cols-1 gap-5">
                 <div className="relative">
                   <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
-                    <span className="block text-sm mb-3">2022 - Present</span>
+                    <span className="block text-sm mb-3">2025 - Present</span>
+                    <h4 className="text-md">
+                      <span className="text-lg text-white font-medium">
+                        The Coding Studio
+                      </span>{" "}
+                      - Software Engineer 
+                    </h4>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="relative w-full h-full p-4 border border-secondary-dark rounded-lg">
+                    <span className="block text-sm mb-3">2022 - 2025</span>
                     <h4 className="text-md">
                       <span className="text-lg text-white font-medium">
                         Erience Solutions
                       </span>{" "}
-                      - Working as a Frontend Developer
+                      - Frontend Developer
                     </h4>
                   </div>
                 </div>
@@ -74,7 +85,7 @@ const Resume = () => {
                       <span className="text-lg text-white font-medium">
                         Freelancing
                       </span>{" "}
-                      - Working as a Freelancer till Graduation.
+                      - Freelancing.
                     </h4>
                   </div>
                 </div>
