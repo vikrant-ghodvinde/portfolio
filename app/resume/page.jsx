@@ -85,7 +85,7 @@ const Resume = () => {
                       <span className="text-lg text-white font-medium">
                         Freelancing
                       </span>{" "}
-                      - Freelancing.
+                      - Freelancing
                     </h4>
                   </div>
                 </div>
